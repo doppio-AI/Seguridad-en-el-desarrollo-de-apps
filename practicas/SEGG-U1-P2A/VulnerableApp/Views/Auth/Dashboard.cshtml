@@ -1,0 +1,16 @@
+@model VulnerableApp.Models.User
+
+<h2>Dashboard</h2>
+
+@if (Model != null)
+{
+    <p>Usuario: @Model.Username</p>
+    <p>Email: @Model.Email</p>
+    <p>Balance: @Model.Balance</p>
+
+    <a href="/Auth/Logout">Cerrar sesión</a>
+}
+else
+{
+    <p>No se encontró información del usuario.</p>
+}
