@@ -1,0 +1,39 @@
+﻿{
+    "TestRunId":  "P3G-20260703-213558",
+    "Window":  {
+                   "StartedAt":  "2026-07-03T21:35:58.3512905-06:00",
+                   "FinishedAt":  "2026-07-03T21:36:40.7021113-06:00",
+                   "ParsedLogLines":  3730
+               },
+    "Levels":  {
+                   "Information":  3499,
+                   "Warning":  211,
+                   "Error":  20
+               },
+    "TopController":  {
+                          "Name":  "AuthController",
+                          "Events":  702
+                      },
+    "TopEndpoint":  {
+                        "Name":  "GET /Search",
+                        "Requests":  170
+                    },
+    "TopIp":  {
+                  "Address":  "::1",
+                  "Events":  2126
+              },
+    "FailedAuthentications":  100,
+    "SqlInjectionAttempts":  30,
+    "XssAttempts":  30,
+    "ControlledExceptions":  20,
+    "UnhandledExceptions":  10,
+    "DistinctCorrelationIds":  1063,
+    "SampleCorrelationId":  "a5db704a9fd74dcd875eb586ce057ce4",
+    "CorrelationIdLocated":  true,
+    "SlowestRequest":  {
+                           "Endpoint":  "GET /Search",
+                           "StatusCode":  200,
+                           "DurationMs":  2175,
+                           "LogLine":  "2026-07-03 21:36:01.330 -06:00 [INF] [9a7841d335eb4beaa172a266185ec594] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /Search respondio 200 en 2175 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: 9a7841d335eb4beaa172a266185ec594"
+                       }
+}

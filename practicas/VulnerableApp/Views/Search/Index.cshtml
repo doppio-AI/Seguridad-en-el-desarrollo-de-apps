@@ -1,0 +1,22 @@
+@model IEnumerable<VulnerableApp.Models.User>
+
+<h2>Buscar Usuarios</h2>
+<form method="get">
+    <input type="text" name="search" placeholder="Busca usuario..." />
+    <button type="submit">Buscar</button>
+</form>
+
+@if (Model?.Any() == true)
+{
+    <table>
+        <tr><th>Username</th><th>Email</th><th>Balance</th></tr>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Username</td>
+                <td>@user.Email</td>
+                <td>$@user.Balance</td>
+            </tr>
+        }
+    </table>
+}

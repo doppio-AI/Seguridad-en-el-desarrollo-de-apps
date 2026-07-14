@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Evidencia de archivos de log - P3G</title>
+  <style>
+    :root { color-scheme: dark; font-family: "Segoe UI", sans-serif; }
+    body { margin: 0; background: #111827; color: #e5e7eb; }
+    main { width: min(1180px, calc(100% - 48px)); margin: 24px auto; }
+    h1 { margin-bottom: 4px; color: #67e8f9; }
+    .meta { color: #9ca3af; margin-bottom: 24px; }
+    .grid { display: grid; grid-template-columns: 1fr 1.7fr; gap: 20px; }
+    section { background: #1f2937; border: 1px solid #374151; border-radius: 10px; padding: 18px; }
+    h2 { margin-top: 0; font-size: 18px; color: #f9fafb; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px; text-align: left; border-bottom: 1px solid #374151; }
+    th { color: #93c5fd; }
+    pre { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font: 13px/1.55 Consolas, monospace; }
+    .inf { color: #a7f3d0; }
+    .wrn { color: #fde68a; }
+    .err { color: #fca5a5; }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 18px; }
+    .stat { padding: 12px; border-radius: 8px; background: #111827; text-align: center; }
+    .stat strong { display: block; font-size: 24px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Evidencia de archivos de log</h1>
+  <div class="meta">VulnerableApp · TestRunId P3G-20260703-213558 · 03/07/2026 21:35:58-21:36:40 (America/Mexico_City)</div>
+  <div class="grid">
+    <section>
+      <h2>Carpeta Logs</h2>
+      <table>
+        <thead><tr><th>Archivo</th><th>Tamaño</th><th>Última modificación</th></tr></thead>
+        <tbody>
+          <tr><td>log-20260702.txt</td><td>35,064 bytes</td><td>02/07/2026 20:51:44</td></tr>
+          <tr><td>log-20260703.txt</td><td>1,595,312 bytes</td><td>03/07/2026 21:36:40</td></tr>
+        </tbody>
+      </table>
+      <div class="stats">
+        <div class="stat"><strong>3,499</strong>Information</div>
+        <div class="stat"><strong>211</strong>Warning</div>
+        <div class="stat"><strong>20</strong>Error</div>
+      </div>
+    </section>
+    <section>
+      <h2>Muestras del archivo log-20260703.txt</h2>
+      <pre><span class="inf">2026-07-03 21:35:58.627 -06:00 [INF] [a5db704a9fd74dcd875eb586ce057ce4]
+HTTP GET / respondio 200 en 15 ms | Usuario: Anonimo | IP: ::1</span>
+
+<span class="inf">2026-07-03 21:36:23.358 -06:00 [INF] [8a94c5cde9034035bb253b68cb4b2144]
+Autenticacion exitosa para admin con identificador 1</span>
+
+<span class="wrn">2026-07-03 21:36:03.777 -06:00 [WRN] [f92d0a752b6e43019fd0352db9736624]
+Posible intento de SQL Injection detectado | Patron: 1; DROP TABLE Users</span>
+
+<span class="wrn">2026-07-03 21:36:38.340 -06:00 [WRN] [ec28e8006dc24ce59bad97194f2cf8db]
+Posible intento de XSS detectado | Longitud: 25</span>
+
+<span class="err">2026-07-03 21:36:40.693 -06:00 [ERR] [10aa7d78281043d5b9121a356aa04066]
+Excepcion no controlada en GET /Home/UnhandledException</span></pre>
+    </section>
+  </div>
+</main>
+</body>
+</html>
