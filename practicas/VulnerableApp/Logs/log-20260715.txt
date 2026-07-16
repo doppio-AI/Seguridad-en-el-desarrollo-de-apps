@@ -1,0 +1,148 @@
+2026-07-15 23:56:57.673 -06:00 [INF] []  VulnerableApp iniciada en el entorno Development
+2026-07-15 23:58:45.214 -06:00 [WRN] [5e8a464732634bb3879f5749653ea33d] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware Failed to determine the https port for redirect.
+2026-07-15 23:58:45.326 -06:00 [INF] [5e8a464732634bb3879f5749653ea33d] VulnerableApp.Controllers.HomeController Inicio HomeController.Index | Usuario: Anonimo | IP: ::1 | Parametros: null
+2026-07-15 23:58:45.332 -06:00 [INF] [5e8a464732634bb3879f5749653ea33d] VulnerableApp.Controllers.HomeController Fin HomeController.Index | Resultado: ViewResult | DuracionMs: 14
+2026-07-15 23:58:45.475 -06:00 [INF] [5e8a464732634bb3879f5749653ea33d] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET / respondio 200 en 270 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: 5e8a464732634bb3879f5749653ea33d
+2026-07-15 23:58:45.587 -06:00 [INF] [c453bdac5fe64b9891810f290a516fc1] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css respondio 404 en 4 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: c453bdac5fe64b9891810f290a516fc1
+2026-07-15 23:58:45.591 -06:00 [INF] [7829692182194821a29cf67c7c65dcac] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /lib/jquery/dist/jquery.min.js respondio 404 en 0 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: 7829692182194821a29cf67c7c65dcac
+2026-07-15 23:58:45.608 -06:00 [INF] [83dcae2f7a8c4aeea85489e270524586] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /css/site.css respondio 200 en 24 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: 83dcae2f7a8c4aeea85489e270524586
+2026-07-15 23:58:45.608 -06:00 [INF] [d21a6d2ccb6d4aa284ec6b72ec017771] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /VulnerableApp.styles.css respondio 200 en 24 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: d21a6d2ccb6d4aa284ec6b72ec017771
+2026-07-15 23:58:45.620 -06:00 [INF] [55ff1e86bb534f9b9e8bef2bfff83592] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /js/site.js respondio 200 en 7 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: 55ff1e86bb534f9b9e8bef2bfff83592
+2026-07-15 23:58:45.620 -06:00 [INF] [81cface108d64499b0af71d59613ea03] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js respondio 404 en 16 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: 81cface108d64499b0af71d59613ea03
+2026-07-15 23:58:45.894 -06:00 [INF] [e17c3dbd2f52443ca925402a0abffc6e] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /favicon.ico respondio 200 en 2 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: e17c3dbd2f52443ca925402a0abffc6e
+2026-07-15 23:59:01.417 -06:00 [INF] [65dc31c3d7e740d6929e84b7bf165fb5] VulnerableApp.Controllers.AuthController Inicio AuthController.Login | Usuario: Anonimo | IP: ::1 | Parametros: null
+2026-07-15 23:59:01.420 -06:00 [INF] [65dc31c3d7e740d6929e84b7bf165fb5] VulnerableApp.Controllers.AuthController Fin AuthController.Login | Resultado: ViewResult | DuracionMs: 3
+2026-07-15 23:59:01.499 -06:00 [INF] [65dc31c3d7e740d6929e84b7bf165fb5] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /auth/login respondio 200 en 285 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: 65dc31c3d7e740d6929e84b7bf165fb5
+2026-07-15 23:59:01.551 -06:00 [INF] [61e2cb1a22a44c37859139b11699bf8d] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css respondio 404 en 0 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: 61e2cb1a22a44c37859139b11699bf8d
+2026-07-15 23:59:01.558 -06:00 [INF] [c2087ee2f6ed4b97b996087874d76b68] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /lib/jquery/dist/jquery.min.js respondio 404 en 2 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: c2087ee2f6ed4b97b996087874d76b68
+2026-07-15 23:59:01.559 -06:00 [INF] [fa14ab69581149ddae53ede4dd247efa] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js respondio 404 en 0 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: fa14ab69581149ddae53ede4dd247efa
+2026-07-15 23:59:01.559 -06:00 [INF] [014d0d2fb7e74c5ba01bf6aabfdc2909] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /css/site.css respondio 200 en 5 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: 014d0d2fb7e74c5ba01bf6aabfdc2909
+2026-07-15 23:59:01.559 -06:00 [INF] [ac4ca800b5ba419c88d6808c93737f31] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /VulnerableApp.styles.css respondio 200 en 4 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: ac4ca800b5ba419c88d6808c93737f31
+2026-07-15 23:59:01.569 -06:00 [INF] [bf6143ac34d840eab902b8b7793d1852] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP GET /js/site.js respondio 200 en 6 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: bf6143ac34d840eab902b8b7793d1852
+2026-07-15 23:59:24.869 -06:00 [INF] [3e6ac581cdf34596b3faf7d1320d6cd7] VulnerableApp.Controllers.AuthController Inicio AuthController.Login | Usuario: Anonimo | IP: ::1 | Parametros: {"Username":"admin"}
+2026-07-15 23:59:24.881 -06:00 [INF] [3e6ac581cdf34596b3faf7d1320d6cd7] VulnerableApp.Controllers.AuthController Intento de autenticacion para admin
+2026-07-15 23:59:28.134 -06:00 [ERR] [3e6ac581cdf34596b3faf7d1320d6cd7] Microsoft.EntityFrameworkCore.Database.Command Failed executing DbCommand (36ms) [Parameters=[@normalizedUsername='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @normalizedUsername
+2026-07-15 23:59:28.166 -06:00 [ERR] [3e6ac581cdf34596b3faf7d1320d6cd7] Microsoft.EntityFrameworkCore.Query An exception occurred while iterating over the results of a query for context type 'VulnerableApp.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PasswordHash'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:4c5dba2d-a5ee-4087-962e-f0a0dc3fcfa6
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PasswordHash'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:4c5dba2d-a5ee-4087-962e-f0a0dc3fcfa6
+Error Number:207,State:1,Class:16
+2026-07-15 23:59:28.174 -06:00 [ERR] [3e6ac581cdf34596b3faf7d1320d6cd7] VulnerableApp.Controllers.AuthController Error en AuthController.Login | Usuario: Anonimo | IP: ::1 | DuracionMs: 3307
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PasswordHash'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method46(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at VulnerableApp.Controllers.AuthController.<>c__DisplayClass3_0.<Login>b__0() in C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\AuthController.cs:line 42
+   at VulnerableApp.Controllers.InstrumentedController`1.ExecuteLogged(String actionName, Object safeParameters, Func`1 action) in C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\InstrumentedController.cs:line 37
+ClientConnectionId:4c5dba2d-a5ee-4087-962e-f0a0dc3fcfa6
+Error Number:207,State:1,Class:16
+2026-07-15 23:59:28.191 -06:00 [INF] [3e6ac581cdf34596b3faf7d1320d6cd7] VulnerableApp.Controllers.AuthController Fin AuthController.Login | Resultado: Excepcion | DuracionMs: 3325
+2026-07-15 23:59:28.198 -06:00 [ERR] [3e6ac581cdf34596b3faf7d1320d6cd7] VulnerableApp.Middleware.ExceptionLoggingMiddleware Excepcion no controlada en POST /auth/login | CorrelationId: 3e6ac581cdf34596b3faf7d1320d6cd7
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PasswordHash'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method46(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at VulnerableApp.Controllers.AuthController.<>c__DisplayClass3_0.<Login>b__0() in C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\AuthController.cs:line 42
+   at VulnerableApp.Controllers.InstrumentedController`1.ExecuteLogged(String actionName, Object safeParameters, Func`1 action) in C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\InstrumentedController.cs:line 37
+   at VulnerableApp.Controllers.AuthController.Login(String username, String password) in C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\AuthController.cs:line 28
+   at lambda_method31(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middleware.ExceptionLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Middleware\ExceptionLoggingMiddleware.cs:line 22
+ClientConnectionId:4c5dba2d-a5ee-4087-962e-f0a0dc3fcfa6
+Error Number:207,State:1,Class:16
+2026-07-15 23:59:28.266 -06:00 [INF] [3e6ac581cdf34596b3faf7d1320d6cd7] VulnerableApp.Middleware.RequestLoggingMiddleware HTTP POST /auth/login respondio 500 en 3432 ms | Usuario: Anonimo | IP: ::1 | CorrelationId: 3e6ac581cdf34596b3faf7d1320d6cd7

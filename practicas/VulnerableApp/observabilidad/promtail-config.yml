@@ -1,0 +1,49 @@
+server:
+  http_listen_port: 9080
+  grpc_listen_port: 0
+
+positions:
+  filename: /var/lib/promtail/positions.yaml
+
+clients:
+  - url: http://loki:3100/loki/api/v1/push
+
+scrape_configs:
+  # Registros generales de VulnerableApp
+  - job_name: vulnerableapp-application
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: vulnerableapp
+          application: VulnerableApp
+          log_type: Application
+          environment: dev
+          module: authentication
+          __path__: /var/log/vulnerableapp/log-*.txt
+
+  # Registros de seguridad
+  - job_name: vulnerableapp-security
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: vulnerableapp
+          application: VulnerableApp
+          log_type: Security
+          environment: dev
+          module: authentication
+          __path__: /var/log/vulnerableapp/security-*.txt
+
+  # Registros de auditoría
+  - job_name: vulnerableapp-audit
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: vulnerableapp
+          application: VulnerableApp
+          log_type: Audit
+          environment: dev
+          module: orders
+          __path__: /var/log/vulnerableapp/audit-*.txt
