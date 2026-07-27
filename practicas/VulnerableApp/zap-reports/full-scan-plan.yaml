@@ -1,0 +1,59 @@
+env:
+  contexts:
+    - name: "VulnerableApp"
+      urls:
+        - "http://vulnerable-app:8080"
+      includePaths:
+        - "http://vulnerable-app:8080.*"
+  parameters:
+    failOnError: true
+    progressToStdout: true
+
+jobs:
+  - type: requestor
+    parameters:
+      user: ''
+    requests:
+      - url: "http://vulnerable-app:8080/Auth/Login"
+        method: "GET"
+      - url: "http://vulnerable-app:8080/Search/Index?search=test"
+        method: "GET"
+      - url: "http://vulnerable-app:8080/Comment/Index"
+        method: "GET"
+      - url: "http://vulnerable-app:8080/Comment/AddComment"
+        method: "POST"
+        data: "comment=zap-seed-comment"
+
+  - type: spider
+    parameters:
+      context: "VulnerableApp"
+      url: "http://vulnerable-app:8080"
+      maxDuration: 5
+
+  - type: passiveScan-wait
+    parameters:
+      maxDuration: 2
+
+  - type: activeScan
+    parameters:
+      context: "VulnerableApp"
+      maxRuleDurationInMins: 5
+
+  - type: report
+    parameters:
+      template: "traditional-html"
+      reportDir: "/zap/wrk"
+      reportFile: "fullscan-report"
+      reportTitle: "VulnerableApp - Full Scan"
+
+  - type: report
+    parameters:
+      template: "traditional-xml"
+      reportDir: "/zap/wrk"
+      reportFile: "fullscan-report"
+
+  - type: report
+    parameters:
+      template: "traditional-json"
+      reportDir: "/zap/wrk"
+      reportFile: "fullscan-report"

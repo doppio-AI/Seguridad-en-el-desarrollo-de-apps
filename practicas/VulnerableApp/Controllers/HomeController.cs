@@ -4,62 +4,56 @@ using VulnerableApp.Models;
 
 namespace VulnerableApp.Controllers;
 
-public class HomeController : InstrumentedController<HomeController>
+public class HomeController : Controller
 {
-    public HomeController(ILogger<HomeController> logger) : base(logger)
+    private readonly ILogger<HomeController> _logger;
+
+    public HomeController(ILogger<HomeController> logger)
     {
+        _logger = logger;
     }
+
+    private string? CurrentUser => HttpContext.Session.GetString("User");
+    private string? ClientIp => HttpContext.Connection.RemoteIpAddress?.ToString();
 
     public IActionResult Index()
     {
-        return ExecuteLogged(nameof(Index), safeParameters: null, View);
+        var sw = Stopwatch.StartNew();
+        _logger.LogInformation("Inicio Home.Index. Usuario:{User} IP:{IP}", CurrentUser, ClientIp);
+
+        var result = View();
+
+        sw.Stop();
+        _logger.LogInformation("Fin Home.Index. DuracionMs:{DuracionMs}", sw.ElapsedMilliseconds);
+        return result;
     }
 
     public IActionResult Privacy()
     {
-        return ExecuteLogged(nameof(Privacy), safeParameters: null, View);
-    }
+        var sw = Stopwatch.StartNew();
+        _logger.LogInformation("Inicio Home.Privacy. Usuario:{User} IP:{IP}", CurrentUser, ClientIp);
 
-    [HttpGet]
-    public IActionResult ControlledException()
-    {
-        return ExecuteLogged(nameof(ControlledException), safeParameters: null, () =>
-        {
-            try
-            {
-                throw new InvalidOperationException(
-                    "Excepcion controlada generada para la practica P3G.");
-            }
-            catch (InvalidOperationException exception)
-            {
-                Logger.LogWarning(
-                    exception,
-                    "Excepcion controlada atendida por HomeController");
-                return UnprocessableEntity(new
-                {
-                    message = "Excepcion controlada",
-                    correlationId = HttpContext.TraceIdentifier
-                });
-            }
-        });
-    }
+        var result = View();
 
-    [HttpGet]
-    public IActionResult UnhandledException()
-    {
-        return ExecuteLogged(nameof(UnhandledException), safeParameters: null, () =>
-            throw new InvalidOperationException(
-                "Excepcion no controlada generada para validar el middleware global."));
+        sw.Stop();
+        _logger.LogInformation("Fin Home.Privacy. DuracionMs:{DuracionMs}", sw.ElapsedMilliseconds);
+        return result;
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
-        return ExecuteLogged(nameof(Error), safeParameters: null, () =>
-        {
-            var requestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
-            Logger.LogError("Se mostro la pagina de error para la solicitud {RequestId}", requestId);
-            return View(new ErrorViewModel { RequestId = requestId });
-        });
+        var sw = Stopwatch.StartNew();
+        var requestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
+
+        _logger.LogWarning(
+            "Home.Error visualizado. RequestId:{RequestId} Usuario:{User} IP:{IP}",
+            requestId, CurrentUser, ClientIp);
+
+        var result = View(new ErrorViewModel { RequestId = requestId });
+
+        sw.Stop();
+        _logger.LogInformation("Fin Home.Error. DuracionMs:{DuracionMs}", sw.ElapsedMilliseconds);
+        return result;
     }
 }

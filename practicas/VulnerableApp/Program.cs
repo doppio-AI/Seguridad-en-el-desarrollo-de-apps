@@ -2,73 +2,52 @@ using Microsoft.EntityFrameworkCore;
 using Serilog;
 using VulnerableApp.Data;
 using VulnerableApp.Middleware;
-using VulnerableApp.Services;
 
+var builder = WebApplication.CreateBuilder(args);
+
+// Serilog se configura leyendo la sección "Serilog" de appsettings.json
+// (nivel mínimo, sinks y enrichers), en vez de estar fijo en código.
 Log.Logger = new LoggerConfiguration()
-    .WriteTo.Console()
-    .CreateBootstrapLogger();
+    .ReadFrom.Configuration(builder.Configuration)
+    .CreateLogger();
 
-try
+builder.Host.UseSerilog();
+
+builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddSession();
+
+var app = builder.Build();
+
+// Aplica migraciones pendientes automaticamente al iniciar (crea la BD y
+// siembra los usuarios de prueba si no existen). Solo relevante para este
+// entorno de practica DAST; en un entorno productivo real esto se haria
+// como paso explicito de despliegue, no en el arranque de la app.
+using (var scope = app.Services.CreateScope())
 {
-    var builder = WebApplication.CreateBuilder(args);
-
-    builder.Host.UseSerilog((context, services, configuration) => configuration
-        .ReadFrom.Configuration(context.Configuration)
-        .ReadFrom.Services(services)
-        .Enrich.WithProperty("Application", "VulnerableApp"));
-
-    // Add services to the container.
-    builder.Services.AddControllersWithViews();
-    builder.Services.AddDistributedMemoryCache();
-    builder.Services.AddSingleton<ICommentStore, InMemoryCommentStore>();
-    builder.Services.AddSession(options =>
-    {
-        options.IdleTimeout = TimeSpan.FromMinutes(20);
-        options.Cookie.HttpOnly = true;
-        options.Cookie.IsEssential = true;
-        options.Cookie.SameSite = SameSiteMode.Strict;
-        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-    });
-    builder.Services.AddDbContext<AppDbContext>(options =>
-        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-    var app = builder.Build();
-
-    // Configure the HTTP request pipeline.
-    if (!app.Environment.IsDevelopment())
-    {
-        app.UseHsts();
-    }
-
-    app.UseMiddleware<CorrelationIdMiddleware>();
-    app.UseMiddleware<RequestLoggingMiddleware>();
-    app.UseMiddleware<ExceptionLoggingMiddleware>();
-
-    app.UseHttpsRedirection();
-    app.UseRouting();
-
-    app.UseSession();
-    app.UseAuthorization();
-
-    app.MapStaticAssets();
-
-    app.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}")
-        .WithStaticAssets();
-
-    Log.Information("VulnerableApp iniciada en el entorno {Environment}",
-        app.Environment.EnvironmentName);
-
-    app.Run();
+    var db = scope.ServiceProvider.GetRequiredService<VulnerableApp.Data.AppDbContext>();
+    db.Database.Migrate();
 }
-catch (Exception exception)
-{
-    Log.Fatal(exception, "VulnerableApp termino inesperadamente");
-}
-finally
-{
-    Log.CloseAndFlush();
-}
+// Orden del pipeline de middleware global (SEGG-U2-P3G-3):
+// 1) CorrelationId: primero de todos, para que exista un identificador único
+//    disponible en el LogContext durante el resto de la petición.
+// 2) ExceptionHandling: envuelve todo lo que sigue para capturar cualquier
+//    excepción no controlada, ya con el CorrelationId disponible.
+// 3) RequestLogging: registra el resultado final de la petición (incluido
+//    un posible 500 generado por el middleware de excepciones anterior).
+app.UseCorrelationId();
+app.UseGlobalExceptionHandling();
+app.UseRequestLogging();
 
-public partial class Program;
+app.UseStaticFiles();
+app.UseRouting();
+app.UseSession();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+Log.Information("La aplicación VulnerableApp ha iniciado en el entorno: {Environment}", app.Environment.EnvironmentName);
+
+app.Run();

@@ -1,8 +1,0 @@
-<h2>Login</h2>
-<form method="post">
-    @Html.AntiForgeryToken()
-    <input type="text" name="username" placeholder="Usuario" />
-    <input type="password" name="password" placeholder="Contrase&ntilde;a" />
-    <button type="submit">Entrar</button>
-</form>
-<p>@ViewBag.Error</p>

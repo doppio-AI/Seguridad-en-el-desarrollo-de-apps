@@ -1,0 +1,48 @@
+services:
+  vulnerable_sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: vulnerable_sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Express"
+      MSSQL_SA_PASSWORD: "VulnerableApp#2026!"
+    volumes:
+      - sqldata:/var/opt/mssql
+    networks:
+      - pentest-net
+    restart: unless-stopped
+
+  vulnerable-app:
+    image: vulnerableapp-vulnerable_app:latest
+    container_name: vulnerable-app
+    depends_on:
+      - vulnerable_sqlserver
+    environment:
+      AllowedHosts: "*"
+    volumes:
+      - ./sitemap.xml:/app/wwwroot/sitemap.xml:ro
+    expose:
+      - "8080"
+    networks:
+      - pentest-net
+    restart: unless-stopped
+
+  zap:
+    image: ghcr.io/zaproxy/zaproxy:stable
+    container_name: zap
+    command: ["tail", "-f", "/dev/null"]
+    volumes:
+      - ./zap-reports:/zap/wrk
+    networks:
+      - pentest-net
+    restart: unless-stopped
+
+networks:
+  pentest-net:
+    driver: bridge
+    internal: true   # Requisito de la guia: sin acceso a internet
+
+volumes:
+  sqldata:
+    external: true
+    name: vulnerableapp_sqldata

@@ -1,0 +1,9 @@
+# .zap/rules.tsv
+# Formato: ID_REGLA	ACCION	COMENTARIO
+# ACCIONES: IGNORE (ignorar), WARN (solo advertir), FAIL (fallar el build)
+
+10020	WARN	Missing Anti-clickjacking Header — pendiente de corregir en Program.cs (X-Frame-Options)
+10021	WARN	X-Content-Type-Options Header Missing — pendiente de corregir (nosniff)
+10038	IGNORE	Content Security Policy — politica CSP requiere analisis de todos los recursos externos (bootstrap/jquery), se evalua en sprint siguiente
+10063	WARN	Permissions Policy Header Not Set — pendiente de definir permisos minimos necesarios
+90004	WARN	Cross-Origin-Resource-Policy Header Missing or Invalid — pendiente de definir politica CORP

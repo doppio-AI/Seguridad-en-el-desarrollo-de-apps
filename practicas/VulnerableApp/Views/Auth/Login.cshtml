@@ -1,8 +1,11 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
 <h2>Login</h2>
 <form method="post">
-    @Html.AntiForgeryToken()
     <input type="text" name="username" placeholder="Usuario" />
-    <input type="password" name="password" placeholder="Contrase&ntilde;a" />
+    <input type="password" name="password" placeholder="Contraseña" />
     <button type="submit">Entrar</button>
 </form>
 <p>@ViewBag.Error</p>

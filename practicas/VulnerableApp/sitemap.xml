@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>http://vulnerable-app:8080/</loc></url>
+  <url><loc>http://vulnerable-app:8080/Home/Privacy</loc></url>
+  <url><loc>http://vulnerable-app:8080/Auth/Login</loc></url>
+  <url><loc>http://vulnerable-app:8080/Search/Index?search=test</loc></url>
+  <url><loc>http://vulnerable-app:8080/Comment/Index</loc></url>
+</urlset>
+ 

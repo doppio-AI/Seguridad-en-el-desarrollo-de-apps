@@ -1,56 +1,81 @@
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using VulnerableApp.Security;
-using VulnerableApp.Services;
 
 namespace VulnerableApp.Controllers
 {
-    public class CommentController : InstrumentedController<CommentController>
+    public class CommentController : Controller
     {
-        private readonly ICommentStore _commentStore;
+        private static List<string> _comments = new();
+        private readonly ILogger<CommentController> _logger;
 
-        public CommentController(
-            ICommentStore commentStore,
-            ILogger<CommentController> logger) : base(logger)
+        public CommentController(ILogger<CommentController> logger)
         {
-            _commentStore = commentStore;
+            _logger = logger;
         }
+
+        private string? CurrentUser => HttpContext.Session.GetString("User");
+        private string? ClientIp => HttpContext.Connection.RemoteIpAddress?.ToString();
 
         public IActionResult Index()
         {
-            return ExecuteLogged(nameof(Index), safeParameters: null,
-                () => View(_commentStore.GetAll()));
+            var sw = Stopwatch.StartNew();
+            _logger.LogInformation(
+                "Inicio Comment.Index. Usuario:{User} IP:{IP} TotalComentarios:{Total}",
+                CurrentUser, ClientIp, _comments.Count);
+
+            var result = View(_comments);
+
+            sw.Stop();
+            _logger.LogInformation("Fin Comment.Index. DuracionMs:{DuracionMs}", sw.ElapsedMilliseconds);
+            return result;
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public IActionResult AddComment(string comment)
         {
-            return ExecuteLogged(
-                nameof(AddComment),
-                new { CommentLength = comment?.Length ?? 0 },
-                () =>
+            var sw = Stopwatch.StartNew();
+            var longitud = comment?.Length ?? 0;
+
+            _logger.LogInformation(
+                "Inicio Comment.AddComment. Usuario:{User} IP:{IP} LongitudComentario:{Longitud}",
+                CurrentUser, ClientIp, longitud);
+
+            if (SecurityPatternDetector.LooksLikeXss(comment))
+            {
+                _logger.LogWarning(
+                    "Posible intento de XSS detectado en Comment. Usuario:{User} IP:{IP} Fragmento:{Fragmento}",
+                    CurrentUser, ClientIp, SecurityPatternDetector.SafeSnippet(comment));
+            }
+
+            try
+            {
+                if (string.IsNullOrEmpty(comment))
                 {
-                    if (string.IsNullOrWhiteSpace(comment))
-                    {
-                        Logger.LogWarning("Se rechazo un comentario vacio");
-                    }
-                    else
-                    {
-                        if (SecurityPatternDetector.LooksLikeXss(comment))
-                        {
-                            Logger.LogWarning(
-                                "Posible intento de XSS detectado | Longitud: {CommentLength}",
-                                comment.Length);
-                        }
+                    _logger.LogWarning(
+                        "Comment.AddComment recibió un comentario vacío. Usuario:{User} IP:{IP}",
+                        CurrentUser, ClientIp);
+                }
+                else
+                {
+                    _comments.Add(comment);
+                    _logger.LogInformation(
+                        "Comentario agregado. Usuario:{User} IP:{IP} LongitudComentario:{Longitud}",
+                        CurrentUser, ClientIp, longitud);
+                }
 
-                        _commentStore.Add(comment);
-                        Logger.LogInformation(
-                            "Comentario almacenado con longitud {CommentLength}",
-                            comment.Length);
-                    }
-
-                    return RedirectToAction(nameof(Index));
-                });
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error en Comment.AddComment. Usuario:{User} IP:{IP}", CurrentUser, ClientIp);
+                throw;
+            }
+            finally
+            {
+                sw.Stop();
+                _logger.LogInformation("Fin Comment.AddComment. DuracionMs:{DuracionMs}", sw.ElapsedMilliseconds);
+            }
         }
     }
 }

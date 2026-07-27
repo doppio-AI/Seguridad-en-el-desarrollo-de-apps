@@ -1,15 +1,15 @@
-@model IReadOnlyCollection<string>
+@model List<string>
 
 <h2>Comentarios</h2>
+
 <form method="post" action="/Comment/AddComment">
-    @Html.AntiForgeryToken()
     <textarea name="comment" rows="4" cols="50"></textarea>
     <button type="submit">Comentar</button>
 </form>
 
 <div id="comments">
-    @foreach (var comment in Model ?? Array.Empty<string>())
+    @foreach (var comment in Model ?? new List<string>())
     {
-        <div class="comment">@Html.Encode(comment)</div>
+        <div class="comment">@Html.Raw(comment)</div>
     }
 </div>
