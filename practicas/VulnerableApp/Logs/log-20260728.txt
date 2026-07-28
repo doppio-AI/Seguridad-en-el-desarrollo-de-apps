@@ -222,3 +222,96 @@ CREATE TABLE [Users] (
 2026-07-28 14:59:36.777 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:320
 2026-07-28 14:59:36.780 -06:00 [INF] Request POST /auth/login respondió 200 en 324 ms
 2026-07-28 15:01:54.720 -06:00 [INF] Application is shutting down...
+2026-07-28 15:11:32.855 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 15:11:34.693 -06:00 [INF] La aplicación VulnerableApp ha iniciado en el entorno: Development
+2026-07-28 15:11:34.841 -06:00 [INF] Now listening on: http://localhost:5271
+2026-07-28 15:11:34.856 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-28 15:11:34.857 -06:00 [INF] Hosting environment: Development
+2026-07-28 15:11:34.859 -06:00 [INF] Content root path: C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp
+2026-07-28 15:11:48.649 -06:00 [INF] Inicio Home.Index. Usuario:null IP:::1
+2026-07-28 15:11:48.653 -06:00 [INF] Fin Home.Index. DuracionMs:9
+2026-07-28 15:11:48.748 -06:00 [INF] Request GET / respondió 200 en 134 ms
+2026-07-28 15:11:48.771 -06:00 [INF] Request GET /VulnerableApp.styles.css respondió 304 en 6 ms
+2026-07-28 15:11:54.840 -06:00 [INF] Inicio Auth.Login (GET). IP:::1
+2026-07-28 15:11:54.909 -06:00 [INF] Request GET /auth/login respondió 200 en 76 ms
+2026-07-28 15:11:57.875 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin IP:::1
+2026-07-28 15:11:58.605 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:admin IP:::1
+2026-07-28 15:11:58.609 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:733
+2026-07-28 15:11:58.613 -06:00 [INF] Request POST /auth/login respondió 200 en 768 ms
+2026-07-28 15:12:02.235 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin  IP:::1
+2026-07-28 15:12:02.577 -06:00 [INF] Evento de autenticación: LOGIN EXITOSO. Usuario:admin UserId:1 IP:::1
+2026-07-28 15:12:02.579 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:343
+2026-07-28 15:12:02.581 -06:00 [INF] Request POST /auth/login respondió 302 en 349 ms
+2026-07-28 15:12:02.587 -06:00 [INF] Inicio Auth.Dashboard. UserId:1 IP:::1
+2026-07-28 15:12:02.687 -06:00 [INF] Fin Auth.Dashboard. UserId:1 DuracionMs:100
+2026-07-28 15:12:02.696 -06:00 [INF] Request GET /Auth/Dashboard respondió 200 en 110 ms
+2026-07-28 15:12:08.484 -06:00 [INF] Inicio Auth.Login (GET). IP:::1
+2026-07-28 15:12:08.490 -06:00 [INF] Request GET /auth/login respondió 200 en 7 ms
+2026-07-28 15:12:13.071 -06:00 [INF] Inicio Auth.Login (POST). Usuario:user IP:::1
+2026-07-28 15:12:13.089 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:user IP:::1
+2026-07-28 15:12:13.097 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:26
+2026-07-28 15:12:13.099 -06:00 [INF] Request POST /auth/login respondió 200 en 29 ms
+2026-07-28 15:12:18.436 -06:00 [INF] Inicio Auth.Login (POST). Usuario:user1 IP:::1
+2026-07-28 15:12:18.613 -06:00 [INF] Evento de autenticación: LOGIN EXITOSO. Usuario:user1 UserId:2 IP:::1
+2026-07-28 15:12:18.615 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:179
+2026-07-28 15:12:18.617 -06:00 [INF] Request POST /auth/login respondió 302 en 181 ms
+2026-07-28 15:12:18.622 -06:00 [INF] Inicio Auth.Dashboard. UserId:2 IP:::1
+2026-07-28 15:12:18.626 -06:00 [INF] Fin Auth.Dashboard. UserId:2 DuracionMs:4
+2026-07-28 15:12:18.629 -06:00 [INF] Request GET /Auth/Dashboard respondió 200 en 7 ms
+2026-07-28 15:12:24.244 -06:00 [INF] Inicio Search.Index
+2026-07-28 15:12:24.246 -06:00 [INF] Usuario:user1 IP:::1 Ruta:/search/index Parametro:null
+2026-07-28 15:12:24.248 -06:00 [WRN] Search.Index recibió un término de búsqueda vacío
+2026-07-28 15:12:24.252 -06:00 [INF] Fin Search.Index. DuracionMs:7
+2026-07-28 15:12:24.263 -06:00 [INF] Request GET /search/index respondió 200 en 24 ms
+2026-07-28 15:12:25.904 -06:00 [INF] Inicio Search.Index
+2026-07-28 15:12:25.907 -06:00 [INF] Usuario:user1 IP:::1 Ruta:/search/index Parametro:asdsa
+2026-07-28 15:12:25.942 -06:00 [INF] Search.Index resultados encontrados: 0
+2026-07-28 15:12:25.943 -06:00 [INF] Fin Search.Index. DuracionMs:38
+2026-07-28 15:12:25.946 -06:00 [INF] Request GET /search/index respondió 200 en 49 ms
+2026-07-28 15:12:27.117 -06:00 [INF] Inicio Search.Index
+2026-07-28 15:12:27.119 -06:00 [INF] Usuario:user1 IP:::1 Ruta:/search/index Parametro:asdsad
+2026-07-28 15:12:27.122 -06:00 [INF] Search.Index resultados encontrados: 0
+2026-07-28 15:12:27.123 -06:00 [INF] Fin Search.Index. DuracionMs:5
+2026-07-28 15:12:27.125 -06:00 [INF] Request GET /search/index respondió 200 en 8 ms
+2026-07-28 15:12:28.353 -06:00 [INF] Inicio Search.Index
+2026-07-28 15:12:28.355 -06:00 [INF] Usuario:user1 IP:::1 Ruta:/search/index Parametro:asdas
+2026-07-28 15:12:28.361 -06:00 [INF] Search.Index resultados encontrados: 0
+2026-07-28 15:12:28.363 -06:00 [INF] Fin Search.Index. DuracionMs:10
+2026-07-28 15:12:28.365 -06:00 [INF] Request GET /search/index respondió 200 en 12 ms
+2026-07-28 15:12:30.231 -06:00 [INF] Inicio Search.Index
+2026-07-28 15:12:30.232 -06:00 [INF] Usuario:user1 IP:::1 Ruta:/search/index Parametro:admin
+2026-07-28 15:12:30.236 -06:00 [INF] Search.Index resultados encontrados: 1
+2026-07-28 15:12:30.238 -06:00 [INF] Fin Search.Index. DuracionMs:7
+2026-07-28 15:12:30.240 -06:00 [INF] Request GET /search/index respondió 200 en 9 ms
+2026-07-28 15:12:36.717 -06:00 [INF] Inicio Comment.Index. Usuario:user1 IP:::1 TotalComentarios:0
+2026-07-28 15:12:36.720 -06:00 [INF] Fin Comment.Index. DuracionMs:3
+2026-07-28 15:12:36.729 -06:00 [INF] Request GET /comment respondió 200 en 14 ms
+2026-07-28 15:12:39.925 -06:00 [INF] Inicio Comment.AddComment. Usuario:user1 IP:::1 LongitudComentario:9
+2026-07-28 15:12:39.929 -06:00 [INF] Comentario agregado. Usuario:user1 IP:::1 LongitudComentario:9
+2026-07-28 15:12:39.931 -06:00 [INF] Fin Comment.AddComment. DuracionMs:6
+2026-07-28 15:12:39.933 -06:00 [INF] Request POST /Comment/AddComment respondió 302 en 9 ms
+2026-07-28 15:12:39.938 -06:00 [INF] Inicio Comment.Index. Usuario:user1 IP:::1 TotalComentarios:1
+2026-07-28 15:12:39.940 -06:00 [INF] Fin Comment.Index. DuracionMs:1
+2026-07-28 15:12:39.943 -06:00 [INF] Request GET /Comment respondió 200 en 4 ms
+2026-07-28 15:12:44.366 -06:00 [INF] Inicio Comment.AddComment. Usuario:user1 IP:::1 LongitudComentario:4
+2026-07-28 15:12:44.371 -06:00 [INF] Comentario agregado. Usuario:user1 IP:::1 LongitudComentario:4
+2026-07-28 15:12:44.373 -06:00 [INF] Fin Comment.AddComment. DuracionMs:7
+2026-07-28 15:12:44.375 -06:00 [INF] Request POST /Comment/AddComment respondió 302 en 10 ms
+2026-07-28 15:12:44.382 -06:00 [INF] Inicio Comment.Index. Usuario:user1 IP:::1 TotalComentarios:2
+2026-07-28 15:12:44.385 -06:00 [INF] Fin Comment.Index. DuracionMs:2
+2026-07-28 15:12:44.388 -06:00 [INF] Request GET /Comment respondió 200 en 6 ms
+2026-07-28 15:12:52.784 -06:00 [INF] Inicio Comment.AddComment. Usuario:user1 IP:::1 LongitudComentario:3696
+2026-07-28 15:12:52.788 -06:00 [INF] Comentario agregado. Usuario:user1 IP:::1 LongitudComentario:3696
+2026-07-28 15:12:52.793 -06:00 [INF] Fin Comment.AddComment. DuracionMs:9
+2026-07-28 15:12:52.797 -06:00 [INF] Request POST /Comment/AddComment respondió 302 en 21 ms
+2026-07-28 15:12:52.805 -06:00 [INF] Inicio Comment.Index. Usuario:user1 IP:::1 TotalComentarios:3
+2026-07-28 15:12:52.812 -06:00 [INF] Fin Comment.Index. DuracionMs:6
+2026-07-28 15:12:52.815 -06:00 [INF] Request GET /Comment respondió 200 en 9 ms
+2026-07-28 15:13:07.010 -06:00 [INF] Inicio Comment.AddComment. Usuario:user1 IP:::1 LongitudComentario:10
+2026-07-28 15:13:07.012 -06:00 [INF] Comentario agregado. Usuario:user1 IP:::1 LongitudComentario:10
+2026-07-28 15:13:07.014 -06:00 [INF] Fin Comment.AddComment. DuracionMs:3
+2026-07-28 15:13:07.015 -06:00 [INF] Request POST /Comment/AddComment respondió 302 en 5 ms
+2026-07-28 15:13:07.021 -06:00 [INF] Inicio Comment.Index. Usuario:user1 IP:::1 TotalComentarios:4
+2026-07-28 15:13:07.023 -06:00 [INF] Fin Comment.Index. DuracionMs:2
+2026-07-28 15:13:07.024 -06:00 [INF] Request GET /Comment respondió 200 en 3 ms
+2026-07-28 15:29:52.320 -06:00 [INF] Application is shutting down...
