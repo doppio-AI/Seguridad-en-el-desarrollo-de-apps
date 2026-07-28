@@ -2,19 +2,19 @@
 ¢C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Security\SecurityPatternsDetector.cs
 
  /
-& 9, ?
-& 0, 6
+" 5, ?
+ (, 6
 
- 0
-9 >" 'H M
+ 0
+9 >" 'H M
 
- '
-0 5" '? D
+ '
+0 5" '? D
 
- (2
-1 6% * 5 :P U
-< E) 2= F
- 4 ;÷
+ (2
+1 6% * 5 :P U
+< E) 2= F
+ 4 ;÷
 ˆC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Program.csH
   #      
  
@@ -126,7 +126,7 @@
   
 
   /
-= I ¦
+= I ¦
 C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\SearchController.cs
 
 
@@ -182,27 +182,7 @@
 ## '<
 ##/ 6&& ",,5 <00O V55) 0==" )
 %% LL MMZ \
-&& **' /@@/ 7‰
-šC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\ApiController.cs
-		 ! .6 C(
-& )  GG x
-0 7  !! && 55 ;; CC II QQ ff pp 
-* , 
-E K d
-  N V!!b j((' /55R ZCCF NKK! )QQJ Rffk sppt |
-
- $<
-) +J L* ,!!^ `(( 55N P
- :: ;;S UP
-  (( ,, -- .. // 00 
-
-@@ (
-BB KK+ -
-GG KK MM 
-
-^^ 0
-
-nn 2â
+&& **' /@@/ 7â
 ›C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\AuthController.cs
  ! /7 E(
 
@@ -228,4 +208,24 @@
 QQ XX 
 
 [[ #
-]] bb 
+]] bb ‰
+šC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\ApiController.cs
+		 ! .6 C(
+& )  GG x
+0 7  !! && 55 ;; CC II QQ ff pp 
+* , 
+E K d
+  N V!!b j((' /55R ZCCF NKK! )QQJ Rffk sppt |
+
+ $<
+) +J L* ,!!^ `(( 55N P
+ :: ;;S UP
+  (( ,, -- .. // 00 
+
+@@ (
+BB KK+ -
+GG KK MM 
+
+^^ 0
+
+nn 2
