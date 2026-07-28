@@ -1,0 +1,103 @@
+{
+  "title": "VulnerableApp - Observabilidad y Seguridad",
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "30s",
+  "time": { "from": "now-6h", "to": "now" },
+  "panels": [
+    {
+      "id": 1,
+      "title": "Errores en el tiempo",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "datasource": { "type": "loki", "uid": "${DS_LOKI}" },
+      "targets": [
+        {
+          "expr": "sum(count_over_time({job=\"vulnerableapp\"} |= \"[ERR]\" [5m]))",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Autenticaciones (fallidas vs exitosas)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "datasource": { "type": "loki", "uid": "${DS_LOKI}" },
+      "targets": [
+        {
+          "expr": "sum(count_over_time({job=\"vulnerableapp\", category=\"Security\"} |= \"LOGIN FALLIDO\" [5m]))",
+          "legendFormat": "Fallidas",
+          "refId": "A"
+        },
+        {
+          "expr": "sum(count_over_time({job=\"vulnerableapp\", category=\"Security\"} |= \"LOGIN EXITOSO\" [5m]))",
+          "legendFormat": "Exitosas",
+          "refId": "B"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Auditoría reciente",
+      "type": "logs",
+      "gridPos": { "h": 8, "w": 24, "x": 0, "y": 8 },
+      "datasource": { "type": "loki", "uid": "${DS_LOKI}" },
+      "targets": [
+        {
+          "expr": "{job=\"vulnerableapp\", category=\"Audit\"}",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "RETO - Autenticaciones fallidas (seguridad)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 8, "x": 0, "y": 16 },
+      "datasource": { "type": "loki", "uid": "${DS_LOKI}" },
+      "targets": [
+        {
+          "expr": "sum(count_over_time({job=\"vulnerableapp\", category=\"Security\"} |= \"LOGIN FALLIDO\" [5m]))",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "RETO - Eventos de auditoría",
+      "type": "logs",
+      "gridPos": { "h": 8, "w": 8, "x": 8, "y": 16 },
+      "datasource": { "type": "loki", "uid": "${DS_LOKI}" },
+      "targets": [
+        {
+          "expr": "{job=\"vulnerableapp\", category=\"Audit\"}",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "RETO - Errores críticos",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 8, "x": 16, "y": 16 },
+      "datasource": { "type": "loki", "uid": "${DS_LOKI}" },
+      "targets": [
+        {
+          "expr": "sum(count_over_time({job=\"vulnerableapp\"} |= \"[ERR]\" [5m]))",
+          "refId": "A"
+        }
+      ]
+    }
+  ],
+  "__inputs": [
+    {
+      "name": "DS_LOKI",
+      "label": "Loki",
+      "description": "",
+      "type": "datasource",
+      "pluginId": "loki"
+    }
+  ]
+}
