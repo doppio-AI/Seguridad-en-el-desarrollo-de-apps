@@ -1,0 +1,224 @@
+2026-07-28 14:08:43.195 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:08:47.637 -06:00 [ERR] Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Balance] decimal(18,2) NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+2026-07-28 14:11:20.462 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:11:47.761 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:12:44.625 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:12:46.057 -06:00 [ERR] Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Balance] decimal(18,2) NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+2026-07-28 14:13:12.412 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:19:55.155 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:20:13.056 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:20:30.816 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:22:29.851 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:22:31.089 -06:00 [INF] La aplicación VulnerableApp ha iniciado en el entorno: Development
+2026-07-28 14:22:31.268 -06:00 [INF] Now listening on: http://localhost:5271
+2026-07-28 14:22:31.274 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-28 14:22:31.277 -06:00 [INF] Hosting environment: Development
+2026-07-28 14:22:31.282 -06:00 [INF] Content root path: C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp
+2026-07-28 14:23:51.379 -06:00 [INF] Inicio Home.Index. Usuario:null IP:::1
+2026-07-28 14:23:51.389 -06:00 [INF] Fin Home.Index. DuracionMs:21
+2026-07-28 14:23:51.736 -06:00 [INF] Request GET / respondió 200 en 420 ms
+2026-07-28 14:23:51.823 -06:00 [INF] Request GET /js/site.js respondió 200 en 5 ms
+2026-07-28 14:23:51.841 -06:00 [INF] Request GET /css/site.css respondió 200 en 50 ms
+2026-07-28 14:23:51.842 -06:00 [INF] Request GET /VulnerableApp.styles.css respondió 200 en 48 ms
+2026-07-28 14:23:51.893 -06:00 [INF] Request GET /lib/bootstrap/dist/css/bootstrap.min.css respondió 200 en 103 ms
+2026-07-28 14:23:51.996 -06:00 [INF] Request GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js respondió 200 en 198 ms
+2026-07-28 14:23:52.043 -06:00 [INF] Request GET /lib/jquery/dist/jquery.min.js respondió 200 en 246 ms
+2026-07-28 14:23:52.194 -06:00 [INF] Request GET /favicon.ico respondió 200 en 24 ms
+2026-07-28 14:24:07.926 -06:00 [INF] Inicio Auth.Login (GET). IP:::1
+2026-07-28 14:24:08.077 -06:00 [INF] Request GET /auth/login respondió 200 en 169 ms
+2026-07-28 14:24:11.838 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin IP:::1
+2026-07-28 14:24:13.506 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:admin IP:::1
+2026-07-28 14:24:13.513 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:1674
+2026-07-28 14:24:13.524 -06:00 [INF] Request POST /auth/login respondió 200 en 1911 ms
+2026-07-28 14:24:17.558 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin IP:::1
+2026-07-28 14:24:18.141 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:admin IP:::1
+2026-07-28 14:24:18.143 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:584
+2026-07-28 14:24:18.147 -06:00 [INF] Request POST /auth/login respondió 200 en 590 ms
+2026-07-28 14:25:14.747 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin IP:::1
+2026-07-28 14:25:15.109 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:admin IP:::1
+2026-07-28 14:25:15.113 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:366
+2026-07-28 14:25:15.117 -06:00 [INF] Request POST /auth/login respondió 200 en 372 ms
+2026-07-28 14:25:33.947 -06:00 [INF] Inicio Auth.Login (POST). Usuario:user1 IP:::1
+2026-07-28 14:25:34.229 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:user1 IP:::1
+2026-07-28 14:25:34.231 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:284
+2026-07-28 14:25:34.234 -06:00 [INF] Request POST /auth/login respondió 200 en 288 ms
+2026-07-28 14:25:34.279 -06:00 [INF] Request GET /VulnerableApp.styles.css respondió 304 en 2 ms
+2026-07-28 14:34:46.315 -06:00 [INF] Application is shutting down...
+2026-07-28 14:34:54.514 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:36:04.838 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:36:05.673 -06:00 [INF] La aplicación VulnerableApp ha iniciado en el entorno: Development
+2026-07-28 14:36:05.841 -06:00 [INF] Now listening on: http://localhost:5271
+2026-07-28 14:36:05.845 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-28 14:36:05.846 -06:00 [INF] Hosting environment: Development
+2026-07-28 14:36:05.848 -06:00 [INF] Content root path: C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp
+2026-07-28 14:37:03.612 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin IP:::1
+2026-07-28 14:37:04.362 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:admin IP:::1
+2026-07-28 14:37:04.392 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:782
+2026-07-28 14:37:04.524 -06:00 [INF] Request POST /auth/login respondió 200 en 959 ms
+2026-07-28 14:37:04.562 -06:00 [INF] Request GET /VulnerableApp.styles.css respondió 304 en 5 ms
+2026-07-28 14:37:13.764 -06:00 [INF] Inicio Auth.Login (POST). Usuario:Admin IP:::1
+2026-07-28 14:37:14.135 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:Admin IP:::1
+2026-07-28 14:37:14.137 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:373
+2026-07-28 14:37:14.142 -06:00 [INF] Request POST /auth/login respondió 200 en 384 ms
+2026-07-28 14:37:41.234 -06:00 [INF] Inicio Auth.Login (POST). Usuario:user1 IP:::1
+2026-07-28 14:37:41.390 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:user1 IP:::1
+2026-07-28 14:37:41.391 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:156
+2026-07-28 14:37:41.393 -06:00 [INF] Request POST /auth/login respondió 200 en 159 ms
+2026-07-28 14:37:52.142 -06:00 [INF] Inicio Auth.Login (POST). Usuario:user2 IP:::1
+2026-07-28 14:37:52.301 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:user2 IP:::1
+2026-07-28 14:37:52.303 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:160
+2026-07-28 14:37:52.305 -06:00 [INF] Request POST /auth/login respondió 200 en 163 ms
+2026-07-28 14:41:36.948 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin IP:::1
+2026-07-28 14:41:37.110 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:admin IP:::1
+2026-07-28 14:41:37.112 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:163
+2026-07-28 14:41:37.114 -06:00 [INF] Request POST /auth/login respondió 200 en 166 ms
+2026-07-28 14:41:37.142 -06:00 [INF] Request GET /VulnerableApp.styles.css respondió 304 en 1 ms
+2026-07-28 14:41:46.982 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin IP:::1
+2026-07-28 14:41:47.147 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:admin IP:::1
+2026-07-28 14:41:47.149 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:167
+2026-07-28 14:41:47.151 -06:00 [INF] Request POST /auth/login respondió 200 en 170 ms
+2026-07-28 14:41:57.684 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin IP:::1
+2026-07-28 14:41:57.840 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:admin IP:::1
+2026-07-28 14:41:57.842 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:157
+2026-07-28 14:41:57.844 -06:00 [INF] Request POST /auth/login respondió 200 en 160 ms
+2026-07-28 14:42:14.407 -06:00 [INF] Inicio Search.Index
+2026-07-28 14:42:14.409 -06:00 [INF] Usuario:null IP:::1 Ruta:/search/index Parametro:null
+2026-07-28 14:42:14.413 -06:00 [WRN] Search.Index recibió un término de búsqueda vacío
+2026-07-28 14:42:14.415 -06:00 [INF] Fin Search.Index. DuracionMs:8
+2026-07-28 14:42:14.428 -06:00 [INF] Request GET /search/index respondió 200 en 30 ms
+2026-07-28 14:42:17.155 -06:00 [INF] Inicio Search.Index
+2026-07-28 14:42:17.156 -06:00 [INF] Usuario:null IP:::1 Ruta:/search/index Parametro:admin
+2026-07-28 14:42:17.211 -06:00 [INF] Search.Index resultados encontrados: 1
+2026-07-28 14:42:17.214 -06:00 [INF] Fin Search.Index. DuracionMs:59
+2026-07-28 14:42:17.218 -06:00 [INF] Request GET /search/index respondió 200 en 68 ms
+2026-07-28 14:42:26.905 -06:00 [INF] Inicio Search.Index
+2026-07-28 14:42:26.909 -06:00 [INF] Usuario:null IP:::1 Ruta:/search/index Parametro:lol
+2026-07-28 14:42:26.918 -06:00 [INF] Search.Index resultados encontrados: 0
+2026-07-28 14:42:26.921 -06:00 [INF] Fin Search.Index. DuracionMs:16
+2026-07-28 14:42:26.926 -06:00 [INF] Request GET /search/index respondió 200 en 22 ms
+2026-07-28 14:42:28.769 -06:00 [INF] Inicio Search.Index
+2026-07-28 14:42:28.771 -06:00 [INF] Usuario:null IP:::1 Ruta:/search/index Parametro:null
+2026-07-28 14:42:28.773 -06:00 [WRN] Search.Index recibió un término de búsqueda vacío
+2026-07-28 14:42:28.775 -06:00 [INF] Fin Search.Index. DuracionMs:5
+2026-07-28 14:42:28.777 -06:00 [INF] Request GET /search/index respondió 200 en 9 ms
+2026-07-28 14:42:38.544 -06:00 [INF] Inicio Auth.Login (GET). IP:::1
+2026-07-28 14:42:38.550 -06:00 [INF] Request GET /auth/login respondió 200 en 9 ms
+2026-07-28 14:42:42.924 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin IP:::1
+2026-07-28 14:42:43.095 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:admin IP:::1
+2026-07-28 14:42:43.096 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:172
+2026-07-28 14:42:43.098 -06:00 [INF] Request POST /auth/login respondió 200 en 175 ms
+2026-07-28 14:42:48.108 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin IP:::1
+2026-07-28 14:42:48.269 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:admin IP:::1
+2026-07-28 14:42:48.271 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:162
+2026-07-28 14:42:48.272 -06:00 [INF] Request POST /auth/login respondió 200 en 164 ms
+2026-07-28 14:44:09.814 -06:00 [INF] Application is shutting down...
+2026-07-28 14:49:36.563 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:49:44.724 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:50:39.610 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:50:40.290 -06:00 [INF] La aplicación VulnerableApp ha iniciado en el entorno: Development
+2026-07-28 14:50:40.346 -06:00 [INF] Now listening on: http://localhost:5271
+2026-07-28 14:50:40.348 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-28 14:50:40.350 -06:00 [INF] Hosting environment: Development
+2026-07-28 14:50:40.351 -06:00 [INF] Content root path: C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp
+2026-07-28 14:51:02.227 -06:00 [INF] Inicio Auth.Login (GET). IP:::1
+2026-07-28 14:51:02.370 -06:00 [INF] Request GET /auth/login respondió 200 en 170 ms
+2026-07-28 14:51:02.400 -06:00 [INF] Request GET /VulnerableApp.styles.css respondió 304 en 4 ms
+2026-07-28 14:51:06.979 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin IP:::1
+2026-07-28 14:51:07.728 -06:00 [INF] Evento de autenticación: LOGIN EXITOSO. Usuario:admin UserId:1 IP:::1
+2026-07-28 14:51:07.734 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:755
+2026-07-28 14:51:07.738 -06:00 [INF] Request POST /auth/login respondió 302 en 798 ms
+2026-07-28 14:51:07.750 -06:00 [INF] Inicio Auth.Dashboard. UserId:1 IP:::1
+2026-07-28 14:51:07.867 -06:00 [INF] Fin Auth.Dashboard. UserId:1 DuracionMs:117
+2026-07-28 14:51:07.878 -06:00 [INF] Request GET /Auth/Dashboard respondió 200 en 130 ms
+2026-07-28 14:51:10.824 -06:00 [INF] Inicio Auth.Login (GET). IP:::1
+2026-07-28 14:51:10.830 -06:00 [INF] Request GET /auth/login respondió 200 en 6 ms
+2026-07-28 14:51:48.093 -06:00 [INF] Inicio Comment.Index. Usuario:admin IP:::1 TotalComentarios:0
+2026-07-28 14:51:48.096 -06:00 [INF] Fin Comment.Index. DuracionMs:4
+2026-07-28 14:51:48.107 -06:00 [INF] Request GET /Comment/Index respondió 200 en 19 ms
+2026-07-28 14:51:51.795 -06:00 [INF] Inicio Comment.AddComment. Usuario:admin IP:::1 LongitudComentario:4
+2026-07-28 14:51:51.813 -06:00 [INF] Comentario agregado. Usuario:admin IP:::1 LongitudComentario:4
+2026-07-28 14:51:51.815 -06:00 [INF] Fin Comment.AddComment. DuracionMs:19
+2026-07-28 14:51:51.817 -06:00 [INF] Request POST /Comment/AddComment respondió 302 en 29 ms
+2026-07-28 14:51:51.825 -06:00 [INF] Inicio Comment.Index. Usuario:admin IP:::1 TotalComentarios:1
+2026-07-28 14:51:51.827 -06:00 [INF] Fin Comment.Index. DuracionMs:2
+2026-07-28 14:51:51.830 -06:00 [INF] Request GET /Comment respondió 200 en 5 ms
+2026-07-28 14:51:56.930 -06:00 [INF] Inicio Comment.AddComment. Usuario:admin IP:::1 LongitudComentario:11
+2026-07-28 14:51:56.932 -06:00 [INF] Comentario agregado. Usuario:admin IP:::1 LongitudComentario:11
+2026-07-28 14:51:56.935 -06:00 [INF] Fin Comment.AddComment. DuracionMs:4
+2026-07-28 14:51:56.937 -06:00 [INF] Request POST /Comment/AddComment respondió 302 en 7 ms
+2026-07-28 14:51:56.942 -06:00 [INF] Inicio Comment.Index. Usuario:admin IP:::1 TotalComentarios:2
+2026-07-28 14:51:56.944 -06:00 [INF] Fin Comment.Index. DuracionMs:2
+2026-07-28 14:51:56.947 -06:00 [INF] Request GET /Comment respondió 200 en 5 ms
+2026-07-28 14:58:06.321 -06:00 [INF] Application is shutting down...
+2026-07-28 14:58:48.264 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-28 14:58:49.131 -06:00 [INF] La aplicación VulnerableApp ha iniciado en el entorno: Development
+2026-07-28 14:58:49.213 -06:00 [INF] Now listening on: http://localhost:5271
+2026-07-28 14:58:49.215 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-28 14:58:49.217 -06:00 [INF] Hosting environment: Development
+2026-07-28 14:58:49.218 -06:00 [INF] Content root path: C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp
+2026-07-28 14:58:49.339 -06:00 [INF] Inicio Comment.AddComment. Usuario:null IP:::1 LongitudComentario:6
+2026-07-28 14:58:49.368 -06:00 [INF] Comentario agregado. Usuario:null IP:::1 LongitudComentario:6
+2026-07-28 14:58:49.371 -06:00 [INF] Fin Comment.AddComment. DuracionMs:36
+2026-07-28 14:58:49.399 -06:00 [INF] Request POST /Comment/AddComment respondió 302 en 107 ms
+2026-07-28 14:58:49.418 -06:00 [INF] Inicio Comment.Index. Usuario:null IP:::1 TotalComentarios:1
+2026-07-28 14:58:49.421 -06:00 [INF] Fin Comment.Index. DuracionMs:3
+2026-07-28 14:58:49.520 -06:00 [INF] Request GET /Comment respondió 200 en 109 ms
+2026-07-28 14:58:49.554 -06:00 [INF] Request GET /VulnerableApp.styles.css respondió 304 en 5 ms
+2026-07-28 14:58:53.494 -06:00 [INF] Inicio Comment.AddComment. Usuario:null IP:::1 LongitudComentario:9
+2026-07-28 14:58:53.498 -06:00 [INF] Comentario agregado. Usuario:null IP:::1 LongitudComentario:9
+2026-07-28 14:58:53.501 -06:00 [INF] Fin Comment.AddComment. DuracionMs:6
+2026-07-28 14:58:53.503 -06:00 [INF] Request POST /Comment/AddComment respondió 302 en 14 ms
+2026-07-28 14:58:53.510 -06:00 [INF] Inicio Comment.Index. Usuario:null IP:::1 TotalComentarios:2
+2026-07-28 14:58:53.513 -06:00 [INF] Fin Comment.Index. DuracionMs:2
+2026-07-28 14:58:53.521 -06:00 [INF] Request GET /Comment respondió 200 en 10 ms
+2026-07-28 14:58:59.880 -06:00 [INF] Inicio Search.Index
+2026-07-28 14:58:59.882 -06:00 [INF] Usuario:null IP:::1 Ruta:/search/index Parametro:null
+2026-07-28 14:58:59.885 -06:00 [WRN] Search.Index recibió un término de búsqueda vacío
+2026-07-28 14:58:59.887 -06:00 [INF] Fin Search.Index. DuracionMs:6
+2026-07-28 14:58:59.904 -06:00 [INF] Request GET /search/index respondió 200 en 39 ms
+2026-07-28 14:59:02.536 -06:00 [INF] Inicio Search.Index
+2026-07-28 14:59:02.538 -06:00 [INF] Usuario:null IP:::1 Ruta:/search/index Parametro:admin
+2026-07-28 14:59:03.041 -06:00 [INF] Search.Index resultados encontrados: 1
+2026-07-28 14:59:03.043 -06:00 [INF] Fin Search.Index. DuracionMs:506
+2026-07-28 14:59:03.046 -06:00 [INF] Request GET /search/index respondió 200 en 518 ms
+2026-07-28 14:59:09.925 -06:00 [INF] Inicio Auth.Login (GET). IP:::1
+2026-07-28 14:59:10.100 -06:00 [INF] Request GET /auth/login respondió 200 en 182 ms
+2026-07-28 14:59:18.832 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin IP:::1
+2026-07-28 14:59:19.302 -06:00 [INF] Evento de autenticación: LOGIN EXITOSO. Usuario:admin UserId:1 IP:::1
+2026-07-28 14:59:19.303 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:471
+2026-07-28 14:59:19.305 -06:00 [INF] Request POST /auth/login respondió 302 en 481 ms
+2026-07-28 14:59:19.312 -06:00 [INF] Inicio Auth.Dashboard. UserId:1 IP:::1
+2026-07-28 14:59:19.344 -06:00 [INF] Fin Auth.Dashboard. UserId:1 DuracionMs:32
+2026-07-28 14:59:19.352 -06:00 [INF] Request GET /Auth/Dashboard respondió 200 en 42 ms
+2026-07-28 14:59:20.931 -06:00 [INF] Evento de autenticación: LOGOUT. Usuario:admin IP:::1
+2026-07-28 14:59:20.939 -06:00 [INF] Request GET /Auth/Logout respondió 302 en 12 ms
+2026-07-28 14:59:20.952 -06:00 [INF] Inicio Home.Index. Usuario:null IP:::1
+2026-07-28 14:59:20.955 -06:00 [INF] Fin Home.Index. DuracionMs:2
+2026-07-28 14:59:20.968 -06:00 [INF] Request GET / respondió 200 en 18 ms
+2026-07-28 14:59:33.464 -06:00 [INF] Inicio Auth.Login (GET). IP:::1
+2026-07-28 14:59:33.470 -06:00 [INF] Request GET /auth/login respondió 200 en 6 ms
+2026-07-28 14:59:36.456 -06:00 [INF] Inicio Auth.Login (POST). Usuario:admin IP:::1
+2026-07-28 14:59:36.773 -06:00 [WRN] Evento de autenticación: LOGIN FALLIDO. Usuario:admin IP:::1
+2026-07-28 14:59:36.777 -06:00 [INF] Fin Auth.Login (POST). DuracionMs:320
+2026-07-28 14:59:36.780 -06:00 [INF] Request POST /auth/login respondió 200 en 324 ms
+2026-07-28 15:01:54.720 -06:00 [INF] Application is shutting down...
