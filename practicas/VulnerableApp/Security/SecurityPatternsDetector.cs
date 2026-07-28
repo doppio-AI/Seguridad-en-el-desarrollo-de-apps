@@ -5,13 +5,12 @@ namespace VulnerableApp.Security
     
     public static class SecurityPatternDetector
     {
-        private static readonly Regex SqlInjectionPattern = new(
-            @"(\bOR\b\s+['""]?\d|\bUNION\b\s+\bSELECT\b|\bDROP\b\s+\bTABLE\b|--|;--|'\s*=\s*'|\bSELECT\b.*\bFROM\b|xp_cmdshell)",
-            RegexOptions.IgnoreCase | RegexOptions.Compiled);
-
-        private static readonly Regex XssPattern = new(
-            @"(<script|onerror\s*=|onload\s*=|javascript:|<img[^>]+src|<iframe|document\.cookie)",
-            RegexOptions.IgnoreCase | RegexOptions.Compiled);
+    private static readonly Regex SqlInjectionPattern = new(
+    @"(\bOR\b\s+['""]?\d|\bUNION\b\s+\bSELECT\b|\bDROP\b\s+\bTABLE\b|--|;--|'\s*=\s*'|\bSELECT\b.*\bFROM\b|xp_cmdshell)",
+    RegexOptions.IgnoreCase | RegexOptions.Compiled, TimeSpan.FromMilliseconds(500));
+private static readonly Regex XssPattern = new(
+    @"(<script|onerror\s*=|onload\s*=|javascript:|<img[^>]+src|<iframe|document\.cookie)",
+    RegexOptions.IgnoreCase | RegexOptions.Compiled, TimeSpan.FromMilliseconds(500));
 
         public static bool LooksLikeSqlInjection(string? input) =>
             !string.IsNullOrEmpty(input) && SqlInjectionPattern.IsMatch(input);
