@@ -72,7 +72,7 @@ namespace VulnerableApp.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error en Search.Index. Parametro:{Search}", search);
-                throw;
+                return View(new List<User>());
             }
             finally
             {

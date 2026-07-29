@@ -26,13 +26,13 @@ var app = builder.Build();
 // como paso explicito de despliegue, no en el arranque de la app.
 using (var scope = app.Services.CreateScope())
 {
-    var db = scope.ServiceProvider.GetRequiredService<VulnerableApp.Data.AppDbContext>();
-    db.Database.Migrate();
+var db = scope.ServiceProvider.GetRequiredService<VulnerableApp.Data.AppDbContext>();
+await db.Database.MigrateAsync();
 }
 // Orden del pipeline de middleware global (SEGG-U2-P3G-3):
-// 1) CorrelationId: primero de todos, para que exista un identificador único
+// 1) CorrelationId: primero de t0d0s, para que exista un identificador único
 //    disponible en el LogContext durante el resto de la petición.
-// 2) ExceptionHandling: envuelve todo lo que sigue para capturar cualquier
+// 2) ExceptionHandling: envuelve cada solicitud siguiente para capturar cualquier
 //    excepción no controlada, ya con el CorrelationId disponible.
 // 3) RequestLogging: registra el resultado final de la petición (incluido
 //    un posible 500 generado por el middleware de excepciones anterior).
@@ -50,4 +50,4 @@ app.MapControllerRoute(
 
 Log.Information("La aplicación VulnerableApp ha iniciado en el entorno: {Environment}", app.Environment.EnvironmentName);
 
-app.Run();
+await app.RunAsync();

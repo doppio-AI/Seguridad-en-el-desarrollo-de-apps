@@ -66,11 +66,11 @@ namespace VulnerableApp.Controllers
 
                 return RedirectToAction("Index");
             }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error en Comment.AddComment. Usuario:{User} IP:{IP}", CurrentUser, ClientIp);
-                throw;
-            }
+     catch (Exception ex)
+{
+    _logger.LogError(ex, "Error en Comment.AddComment. Usuario:{User} IP:{IP}", CurrentUser, ClientIp);
+    return RedirectToAction("Index");
+}
             finally
             {
                 sw.Stop();

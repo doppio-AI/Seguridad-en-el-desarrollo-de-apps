@@ -53,11 +53,12 @@ namespace VulnerableApp.Controllers
 
                 return RedirectToAction("Dashboard");
             }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error en Auth.Login. Usuario:{Usuario} IP:{IP}", username, ClientIp);
-                throw;
-            }
+      catch (Exception ex)
+{
+    _logger.LogError(ex, "Error en Auth.Login. Usuario:{Usuario} IP:{IP}", username, ClientIp);
+    ViewBag.Error = "Ocurrió un error al procesar el inicio de sesión.";
+    return View();
+}
             finally
             {
                 sw.Stop();
