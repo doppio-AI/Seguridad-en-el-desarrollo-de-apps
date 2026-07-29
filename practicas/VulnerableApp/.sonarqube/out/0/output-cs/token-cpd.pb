@@ -214,7 +214,7 @@ HtmlEncode) 3
 ;< =
 } 	
 } 
-} ä
+} 
 ˆC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Program.cs
 var 
 builder 
@@ -341,34 +341,34 @@ AddSession 
 (+ ,
 ), -
 )- .
-{ 
-var 
-db 
-
-= 
-scope 
-. 
-ServiceProvider "
-." #
-GetRequiredService# 5
-<5 6
-VulnerableApp6 C
-.C D
-DataD H
-.H I
-AppDbContextI U
->U V
-(V W
-)W X
-;X Y
-db 
-. 
-Database 
-. 
-Migrate 
-( 
-) 
-; 
+{ 
+var 
+db 
+= 
+scope	 
+. 
+ServiceProvider 
+. 
+GetRequiredService 1
+<1 2
+VulnerableApp2 ?
+.? @
+Data@ D
+.D E
+AppDbContextE Q
+>Q R
+(R S
+)S T
+;T U
+await 
+db 
+. 	
+Database	 
+. 
+MigrateAsync 
+( 
+)  
+;  !
 } 
 app'' 
 .'' 
@@ -434,14 +434,16 @@ UseSession-- 
 .33g h
 EnvironmentName33h w
 )33w x
-;33x y
-app55 
-.55 
-Run55 
-(55 
-)55 	
-;55	 
-’
+;33x y
+await55 
+app55 	
+.55	 
+
+RunAsync55
+ 
+(55 
+)55 
+;55 ’
 ŒC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Models\User.cs
 	namespace 	
 VulnerableApp

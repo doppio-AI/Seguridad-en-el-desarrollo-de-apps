@@ -9,15 +9,15 @@
 ´
 ñC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Models\ErrorViewModel.cs 8rÇ¸
 ∞C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260728204937_FixSeedPasswordHashes.cs 8j
-#r1	 !$%&'()*+-./012456789:;<Ç&-4˘
-®C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260702193749_InitialCreate.cs 8j
--r*	 "#$%&'()*+./01234Ç"$&'()0È
+#r1	 !$%&'()*+-./012456789:;<Ç&-4Õ
+íC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Data\AppDbContext.cs 8r*
+ !"#$%&'()*,-.ÇÈ
 §C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Middleware\RequestLoggingMiddleware.cs 8r%	 !"#$%'()*+,-.xÇ !"#+Ò
 ßC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Middleware\ExceptionHandlingMiddleware.cs 8r+	
  !"#$%&')*+,-./0xÇ !"#-ÿ
-£C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Middleware\CorrelationIdMiddleware.cs 8r	 !"#$%Ç"Õ
-íC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Data\AppDbContext.cs 8r*
- !"#$%&'()*,-.Çî
+£C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Middleware\CorrelationIdMiddleware.cs 8r	 !"#$%Ç"˘
+®C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260702193749_InitialCreate.cs 8j
+-r*	 "#$%&'()*+./01234Ç"$&'()0î
 ùC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\SearchController.cs 8j"#$rF	
  %&'()*+,-./02345678:;<=>?@BDFGHIJKLMNOPQRSTxÇ%)-.2467<>?BDFJKOPÓ
 õC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\HomeController.cs 8	r-	 !"$&'()+,-./1235789:;Ç!"$&'(./15789è

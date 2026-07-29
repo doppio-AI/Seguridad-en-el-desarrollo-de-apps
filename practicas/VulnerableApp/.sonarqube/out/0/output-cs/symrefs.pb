@@ -14,15 +14,14 @@
  (2
 1 6% * 5 :P U
 < E) 2= F
- 4 ;÷
+ 4 ;ù
 ˆC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Program.csH
   #      
  
-, 3 ^
-  '' (( )) ++ ,, -- // 33X [55 
-  
- 
- ï
+, 3 `
+  '' (( )) ++ ,, -- // 33X [55 	
+ 	 
+  ï
 ŒC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Models\User.cs
 
  
@@ -56,19 +55,17 @@
 4 D   
 
 $$  $(
-$$6 F&& -- 44 ƒ
-¨C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260702193749_InitialCreate.cs
+$$6 F&& -- 44 ï
+’C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Data\AppDbContext.cs
+ - 9
+; BK R
 
- &
+
+
+  
 
-  "
-4 D "" P
-   $ $# ( ! #  %
- " 
-1 26 7
-
-..  $
-..6 F00 õ
+  /
+= I õ
 ¤C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Middleware\RequestLoggingMiddleware.cs(
  )		! 9F ^++) A
 ) .  
@@ -116,17 +113,19 @@
 
   $ 4
   N U""
- ï
-’C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Data\AppDbContext.cs
- - 9
-; BK R
+ ƒ
+¨C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260702193749_InitialCreate.cs
 
-
-
-  
+ &
 
-  /
-= I ¦
+  "
+4 D "" P
+   $ $# ( ! #  %
+ " 
+1 26 7
+
+..  $
+..6 F00 ¦
 C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\SearchController.cs
 
 
