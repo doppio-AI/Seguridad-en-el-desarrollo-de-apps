@@ -75,18 +75,18 @@
         {
           "ruleId": "CS0169",
           "level": "warning",
-          "message": "El campo 'Views_Shared__Layout.__tagHelperStringValueBuffer' nunca se usa",
+          "message": "El campo 'Views_Auth_Login.__tagHelperStringValueBuffer' nunca se usa",
           "suppressionStates": [
             "suppressedInSource"
           ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/obj/Debug/net10.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views/Shared/_Layout_cshtml.g.cs",
+                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/obj/Debug/net10.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views/Auth/Login_cshtml.g.cs",
                 "region": {
-                  "startLine": 55,
+                  "startLine": 42,
                   "startColumn": 24,
-                  "endLine": 55,
+                  "endLine": 42,
                   "endColumn": 52
                 }
               }
@@ -99,18 +99,18 @@
         {
           "ruleId": "CS0169",
           "level": "warning",
-          "message": "El campo 'Views_Comment_Index.__tagHelperStringValueBuffer' nunca se usa",
+          "message": "El campo 'Views_Shared__Layout.__tagHelperStringValueBuffer' nunca se usa",
           "suppressionStates": [
             "suppressedInSource"
           ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/obj/Debug/net10.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views/Comment/Index_cshtml.g.cs",
+                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/obj/Debug/net10.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views/Shared/_Layout_cshtml.g.cs",
                 "region": {
-                  "startLine": 50,
+                  "startLine": 55,
                   "startColumn": 24,
-                  "endLine": 50,
+                  "endLine": 55,
                   "endColumn": 52
                 }
               }
@@ -147,18 +147,18 @@
         {
           "ruleId": "CS0169",
           "level": "warning",
-          "message": "El campo 'Views_Auth_Login.__tagHelperStringValueBuffer' nunca se usa",
+          "message": "El campo 'Views_Comment_Index.__tagHelperStringValueBuffer' nunca se usa",
           "suppressionStates": [
             "suppressedInSource"
           ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/obj/Debug/net10.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views/Auth/Login_cshtml.g.cs",
+                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/obj/Debug/net10.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views/Comment/Index_cshtml.g.cs",
                 "region": {
-                  "startLine": 42,
+                  "startLine": 50,
                   "startColumn": 24,
-                  "endLine": 42,
+                  "endLine": 50,
                   "endColumn": 52
                 }
               }
@@ -229,55 +229,6 @@
           ],
           "properties": {
             "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2139",
-          "level": "warning",
-          "message": "Either log this exception and handle it, or rethrow it with some contextual information.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/ApiController.cs",
-                "region": {
-                  "startLine": 79,
-                  "startColumn": 30,
-                  "endLine": 79,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/ApiController.cs",
-                "region": {
-                  "startLine": 81,
-                  "startColumn": 17,
-                  "endLine": 81,
-                  "endColumn": 84
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/ApiController.cs",
-                "region": {
-                  "startLine": 82,
-                  "startColumn": 17,
-                  "endLine": 82,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": "Logging statement.",
-              "1": "Thrown exception."
-            }
           }
         },
         {
@@ -356,21 +307,6 @@
           "defaultLevel": "warning",
           "properties": {
             "category": "Major Vulnerability",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S2139": {
-          "id": "S2139",
-          "shortDescription": "Exceptions should be either logged or rethrown but not both",
-          "fullDescription": "When an exception is logged and rethrown, the upstream code may not be aware that the exception has already been logged. As a result, the same exception gets logged multiple times, making it difficult to identify the root cause of the issue. This can be particularly problematic in multi-threaded applications where messages from other threads can be interwoven with the repeated log entries.",
-          "defaultLevel": "warning",
-          "properties": {
-            "category": "Major Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

@@ -214,7 +214,97 @@ HtmlEncode) 3
 ;< =
 } 	
 } 
-} 
+} ¸
+
+ŒC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Models\User.cs
+	namespace 	
+VulnerableApp
+ 
+. 
+Models 
+{ 
+public 
+
+class 
+User 
+{ 
+public 
+int 
+Id 
+{ 
+get 
+; 
+set  
+;  !
+}" #
+public 
+required 
+string 
+Username '
+{( )
+get* -
+;- .
+set/ 2
+;2 3
+}4 5
+public 
+required 
+string 
+PasswordHash +
+{, -
+get. 1
+;1 2
+set3 6
+;6 7
+}8 9
+public 
+required 
+string 
+Email $
+{% &
+get' *
+;* +
+set, /
+;/ 0
+}1 2
+public		 
+decimal		 
+Balance		 
+{		  
+get		! $
+;		$ %
+set		& )
+;		) *
+}		+ ,
+public
+
+ 
+DateTime
+
+ 
+	CreatedAt
+
+ !
+{
+
+" #
+get
+
+$ '
+;
+
+' (
+set
+
+) ,
+;
+
+, -
+}
+
+. /
+} 
+} 
 ˆC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Program.cs
 var 
 builder 
@@ -443,97 +533,7 @@ UseSession-- 
  
 (55 
 )55 
-;55 ¸
-
-ŒC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Models\User.cs
-	namespace 	
-VulnerableApp
- 
-. 
-Models 
-{ 
-public 
-
-class 
-User 
-{ 
-public 
-int 
-Id 
-{ 
-get 
-; 
-set  
-;  !
-}" #
-public 
-required 
-string 
-Username '
-{( )
-get* -
-;- .
-set/ 2
-;2 3
-}4 5
-public 
-required 
-string 
-PasswordHash +
-{, -
-get. 1
-;1 2
-set3 6
-;6 7
-}8 9
-public 
-required 
-string 
-Email $
-{% &
-get' *
-;* +
-set, /
-;/ 0
-}1 2
-public		 
-decimal		 
-Balance		 
-{		  
-get		! $
-;		$ %
-set		& )
-;		) *
-}		+ ,
-public
-
- 
-DateTime
-
- 
-	CreatedAt
-
- !
-{
-
-" #
-get
-
-$ '
-;
-
-' (
-set
-
-) ,
-;
-
-, -
-}
-
-. /
-} 
-} ä
+;55 ä
 –C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Models\ErrorViewModel.cs
 	namespace 	
 VulnerableApp
@@ -3299,7 +3299,7 @@ LogWarningNN "
 ;ee4 5
 }ff 	
 }gg 
-}hh Ð9
+}hh °3
 šC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\ApiController.cs
 	namespace 	
 VulnerableApp
@@ -3547,178 +3547,136 @@ StatusCode66 
 ;;;j k
 }<< 
 }== 	
-[?? 	
-HttpGet??	 
-(?? 
-$str?? 
-)?? 
-]?? 
-public@@ 
-IActionResult@@ 
-GetAllUsers@@ (
-(@@( )
-)@@) *
-{AA 	
-varBB 
-swBB 
-=BB 
-	StopwatchBB 
-.BB 
-StartNewBB '
-(BB' (
-)BB( )
-;BB) *
-_loggerCC 
-.CC 
-LogInformationCC "
-(CC" #
-$strCC# D
-,CCD E
-ClientIpCCF N
-)CCN O
-;CCO P
-tryEE 
-{FF 
-varGG 
-usersGG 
-=GG 
-_dbGG 
-.GG  
-UsersGG  %
-.GG% &
-ToListGG& ,
-(GG, -
-)GG- .
-;GG. /
-_loggerII 
-.II 
-LogInformationII &
-(II& '
-$strJJ `
-,JJ` a
-usersKK 
-.KK 
-CountKK 
-,KK  
-ClientIpKK! )
-,KK) *
-swKK+ -
-.KK- .
-ElapsedMillisecondsKK. A
-)KKA B
-;KKB C
-returnMM 
-OkMM 
-(MM 
-usersMM 
-)MM  
-;MM  !
-}NN 
-catchOO 
-(OO 
-	ExceptionOO 
-exOO 
-)OO  
-{PP 
-_loggerQQ 
-.QQ 
-LogErrorQQ  
-(QQ  !
-exQQ! #
-,QQ# $
-$strQQ% H
-,QQH I
-ClientIpQQJ R
-)QQR S
-;QQS T
-throwRR 
-;RR 
-}SS 
-}TT 	
-[]] 	
-HttpGet]]	 
-(]] 
-$str]] (
-)]]( )
-]]]) *
-public^^ 
-IActionResult^^ 
-TestControlledError^^ 0
-(^^0 1
-)^^1 2
-{__ 	
-try`` 
-{aa 
-throwbb 
-newbb %
-InvalidOperationExceptionbb 3
-(bb3 4
-$strbb4 \
-)bb\ ]
-;bb] ^
-}cc 
-catchdd 
-(dd 
-	Exceptiondd 
-exdd 
-)dd  
-{ee 
-_loggerff 
-.ff 
-LogErrorff  
-(ff  !
-exff! #
-,ff# $
-$strff% i
-,ffi j
-ClientIpffk s
-)ffs t
-;fft u
-returngg 
-Okgg 
-(gg 
-newgg 
-{gg 
-statusgg  &
-=gg' (
-$strgg) 3
-,gg3 4
-mensajegg5 <
-=gg= >
-$strgg? n
-}ggo p
-)ggp q
-;ggq r
-}hh 
-}ii 	
-[mm 	
-HttpGetmm	 
-(mm 
-$strmm *
-)mm* +
-]mm+ ,
-publicnn 
-IActionResultnn !
-TestUncontrolledErrornn 2
-(nn2 3
-)nn3 4
-{oo 	
-_loggerpp 
-.pp 
-LogInformationpp "
-(pp" #
-$strpp# r
-,ppr s
-ClientIpppt |
-)pp| }
-;pp} ~
-throwqq 
-newqq %
-InvalidOperationExceptionqq /
-(qq/ 0
-$strqq0 [
-)qq[ \
-;qq\ ]
-}rr 	
-}ss 
-}tt 
+[?? 
+HttpGet?? 
+(?? 
+$str?? 
+)?? 
+]?? 
+public@@ 
+IActionResult@@ 
+GetAllUsers@@  
+(@@  !
+)@@! "
+{AA 
+varBB 
+swBB 
+
+=BB 
+	StopwatchBB 
+.BB 
+StartNewBB 
+(BB  
+)BB  !
+;BB! "
+_loggerCC 
+.CC 
+LogInformationCC 
+(CC 
+$strCC <
+,CC< =
+ClientIpCC> F
+)CCF G
+;CCG H
+tryEE 
+{FF 
+varGG 
+usersGG 
+=GG 
+_dbGG 
+.GG 
+UsersGG 
+.GG 
+ToListGG $
+(GG$ %
+)GG% &
+;GG& '
+_loggerII 
+.II 
+LogInformationII 
+(II 
+$strJJ X
+,JJX Y
+usersKK 
+.KK 
+CountKK 
+,KK 
+ClientIpKK !
+,KK! "
+swKK# %
+.KK% &
+ElapsedMillisecondsKK& 9
+)KK9 :
+;KK: ;
+returnMM 
+OkMM 
+(MM 
+usersMM 
+)MM 
+;MM 
+}NN 
+catchOO 	
+(OO
+ 
+	ExceptionOO 
+exOO 
+)OO 
+{PP 
+_loggerQQ 
+.QQ 
+LogErrorQQ 
+(QQ 
+exQQ 
+,QQ 
+$strQQ @
+,QQ@ A
+ClientIpQQB J
+)QQJ K
+;QQK L
+returnRR 
+
+StatusCodeRR 
+(RR 
+$numRR 
+,RR 
+newRR "
+{RR# $
+errorRR% *
+=RR+ ,
+$strRR- a
+}RRb c
+)RRc d
+;RRd e
+}SS 
+}TT 
+[XX 	
+HttpGetXX	 
+(XX 
+$strXX *
+)XX* +
+]XX+ ,
+publicYY 
+IActionResultYY !
+TestUncontrolledErrorYY 2
+(YY2 3
+)YY3 4
+{ZZ 	
+_logger[[ 
+.[[ 
+LogInformation[[ "
+([[" #
+$str[[# r
+,[[r s
+ClientIp[[t |
+)[[| }
+;[[} ~
+throw\\ 
+new\\ %
+InvalidOperationException\\ /
+(\\/ 0
+$str\\0 [
+)\\[ \
+;\\\ ]
+}]] 	
+}^^ 
+}__ 
