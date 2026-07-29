@@ -167,7 +167,7 @@
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">http://localhost:9000</Property>
-    <Property Name="sonar.exclusions">zap-reports/**,bin/**,obj/**</Property>
+    <Property Name="sonar.exclusions">zap-reports/**,bin/**,obj/**,Migrations/**</Property>
   </LocalSettings>
   <ScannerOptsSettings />
   <AnalyzersSettings>

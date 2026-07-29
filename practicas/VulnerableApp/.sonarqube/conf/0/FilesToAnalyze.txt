@@ -99,6 +99,7 @@ C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-
 C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Views\_ViewImports.cshtml
 C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Views\_ViewStart.cshtml
 C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Views\Shared\_Layout.cshtml.css
+C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\.editorconfig
 C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\.env
 C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\.gitignore
 C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\docker-compose.observability.yml

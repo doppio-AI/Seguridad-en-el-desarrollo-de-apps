@@ -19,7 +19,7 @@ namespace VulnerableApp.Data
         PasswordHash = "$2a$11$nMD.vQH858TzSJiSyNKexucoSuTx3U58hzaN09P40bDzluK1XP6M2",
         Email = "admin@test.com",
         Balance = 1000m,
-        CreatedAt = new DateTime(2024, 1, 1)
+        CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc)
     },
     new User
     {
@@ -28,7 +28,7 @@ namespace VulnerableApp.Data
         PasswordHash = "$2a$11$kzcuxEZN/oNktHiSoAUYaOWEhWs7MxgTShk.o9MBIi.z7BwtL6tIm",
         Email = "user@test.com",
         Balance = 500m,
-        CreatedAt = new DateTime(2024, 1, 1)
+        CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc)
     },
     new User
     {
@@ -37,7 +37,7 @@ namespace VulnerableApp.Data
         PasswordHash = "$2a$11$Yr9Dm.2oDsD5h8.uXXBkHecPNENuJnowA/2CUcSk2TOvMz4mBiGSi",
         Email = "user2@test.com",
         Balance = 750m,
-        CreatedAt = new DateTime(2024, 1, 1)
+        CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc)
     }
 );
 

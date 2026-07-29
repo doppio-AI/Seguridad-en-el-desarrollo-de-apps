@@ -1,18 +1,18 @@
-Ô
-ˆC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Program.cs$j	 !"#$%&r
-'()+,-/0135‚
-'()+,-/35Õ
+Õ
 ¢C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Security\SecurityPatternsDetector.cs 8jr	
 x‚
-¨
-ŒC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Models\User.cs 8jr	
-«
+Ô
+ˆC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Program.cs$j	 !"#$%&r
+'()+,-/0135‚
+'()+,-/35¦
+ŒC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Models\User.cs 8jr	
+«
 –C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Models\ErrorViewModel.cs 8r‚ü
 °C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260728204937_FixSeedPasswordHashes.cs 8j
 #r1	 !$%&'()*+-./012456789:;<‚&-4ù
 ¨C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260702193749_InitialCreate.cs 8j
--r*	 "#$%&'()*+./01234‚"$&'()0é
-¤C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Middleware\RequestLoggingMiddleware.cs 8r%	 !"#$%'()*+,-.x‚ !"#+ñ
+-r*	 "#$%&'()*+./01234‚"$&'()0î
+¤C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Middleware\RequestLoggingMiddleware.cs 8r)	 !"$%&'()*,-./0123x‚ !&'(0ñ
 §C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Middleware\ExceptionHandlingMiddleware.cs 8r+	
  !"#$%&')*+,-./0x‚ !"#-Ø
 £C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Middleware\CorrelationIdMiddleware.cs 8r	 !"#$%‚"Í
@@ -23,9 +23,9 @@
 ›C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\HomeController.cs 8	r-	 !"$&'()+,-./1235789:;‚!"$&'(./15789
 žC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\CommentController.cs 8
 rF	
- "#$%&()*,-./013456789:;<=>?@ACDEFGHIJKLMNOPQx‚%&(,.057=>CGHLM§
-›C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\AuthController.cs" 8
-jrS	
- "#$%&'()+,-/02346789:;<=>?@ABDEFGIKLMNOQSTUVXY[\]^`abdefgx‚$ $%'+,/0246:;?@FGIKMNQSTVX]^`d¶
-šC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\ApiController.cs 8j	%VWXY[\klr]	
- !"#&'(*+,-./0123456789:;<=?@ABCEFGIJKMNOPQRST]^_`abcdefghimnopqrstx‚"!"&(*,-./056:;BCGIKMQRbfgpq
+ "#$%&()*,-./013456789:;<=>?@ACDEFGHIJKLMNOPQx‚%&(,.057=>CGHLM©
+›C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\AuthController.cs# 8
+jrT	
+ "#$%&'()+,-/02346789:;<=>?@ABCEFGHJLMNOPRTUVWYZ\]^_abcefghx‚% $%'+,/0246:;<@AGHJLNORTUWY^_ae´
+šC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\ApiController.cs 8j	%VWXY[\klr\	
+ !"#&'(*+,-./023456789:;<=?@ABCEFGIJKMNOPQRST]^_`abcdefghimnopqrstx‚!!"&(*,-./56:;BCGIKMQRbfgpq

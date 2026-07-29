@@ -40,11 +40,11 @@ namespace VulnerableApp.Controllers
                 {
                     throw new InvalidOperationException("Excepción de prueba controlada (P3G-5)");
                 }
-      catch (Exception ex)
-{
-    _logger.LogError(ex, "Error en Search.Index. Parametro:{Search}", search);
-    return View(new List<User>());
-}
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Excepción controlada capturada en Search.Index (prueba P3G-5)");
+                    return View(new List<User>());
+                }
             }
 
             if (SecurityPatternDetector.LooksLikeSqlInjection(search))
@@ -72,7 +72,7 @@ namespace VulnerableApp.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error en Search.Index. Parametro:{Search}", search);
-                throw;
+                return View(new List<User>());
             }
             finally
             {

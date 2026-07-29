@@ -3,13 +3,13 @@
 ²C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\obj\Debug\net10.0\VulnerableApp.RazorAssemblyInfo.csutf-8¹
 ­C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\obj\Debug\net10.0\VulnerableApp.AssemblyInfo.csutf-8Ë
 ¿C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.csutf-8»
-¯C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\obj\Debug\net10.0\VulnerableApp.GlobalUsings.g.csutf-8’
-ˆC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Program.csutf-8¬
-¢C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Security\SecurityPatternsDetector.csutf-8–
+¯C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\obj\Debug\net10.0\VulnerableApp.GlobalUsings.g.csutf-8¬
+¢C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Security\SecurityPatternsDetector.csutf-8’
+ˆC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Program.csutf-8–
 ŒC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Models\User.csutf-8 
-–C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Models\ErrorViewModel.csutf-8Å
-¹C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260728204937_FixSeedPasswordHashes.Designer.csutf-8±
-¥C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\AppDbContextModelSnapshot.csutf-8º
+–C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Models\ErrorViewModel.csutf-8±
+¥C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\AppDbContextModelSnapshot.csutf-8Å
+¹C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260728204937_FixSeedPasswordHashes.Designer.csutf-8º
 °C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260728204937_FixSeedPasswordHashes.csutf-8½
 ±C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260702193749_InitialCreate.Designer.csutf-8²
 ¨C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260702193749_InitialCreate.csutf-8®

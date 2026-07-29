@@ -49,139 +49,27 @@
           }
         },
         {
-          "ruleId": "CS8618",
+          "ruleId": "CS0169",
           "level": "warning",
-          "message": "El elemento propiedad \"Username\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "message": "El campo 'Views_Shared__Layout.__tagHelperStringValueBuffer' nunca se usa",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Models/User.cs",
+                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/obj/Debug/net10.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views/Shared/_Layout_cshtml.g.cs",
                 "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Models/User.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 31
+                  "startLine": 55,
+                  "startColumn": 24,
+                  "endLine": 55,
+                  "endColumn": 52
                 }
               }
             }
           ],
           "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Password\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Models/User.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Models/User.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"PasswordHash\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Models/User.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Models/User.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Email\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Models/User.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Models/User.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
+            "warningLevel": 3
           }
         },
         {
@@ -199,6 +87,30 @@
                   "startLine": 42,
                   "startColumn": 24,
                   "endLine": 42,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "El campo 'Views_Comment_Index.__tagHelperStringValueBuffer' nunca se usa",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/obj/Debug/net10.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views/Comment/Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 24,
+                  "endLine": 50,
                   "endColumn": 52
                 }
               }
@@ -247,54 +159,6 @@
                   "startLine": 43,
                   "startColumn": 24,
                   "endLine": 43,
-                  "endColumn": 52
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 3
-          }
-        },
-        {
-          "ruleId": "CS0169",
-          "level": "warning",
-          "message": "El campo 'Views_Comment_Index.__tagHelperStringValueBuffer' nunca se usa",
-          "suppressionStates": [
-            "suppressedInSource"
-          ],
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/obj/Debug/net10.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views/Comment/Index_cshtml.g.cs",
-                "region": {
-                  "startLine": 50,
-                  "startColumn": 24,
-                  "endLine": 50,
-                  "endColumn": 52
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 3
-          }
-        },
-        {
-          "ruleId": "CS0169",
-          "level": "warning",
-          "message": "El campo 'Views_Shared__Layout.__tagHelperStringValueBuffer' nunca se usa",
-          "suppressionStates": [
-            "suppressedInSource"
-          ],
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/obj/Debug/net10.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views/Shared/_Layout_cshtml.g.cs",
-                "region": {
-                  "startLine": 55,
-                  "startColumn": 24,
-                  "endLine": 55,
                   "endColumn": 52
                 }
               }
@@ -452,42 +316,18 @@
           }
         },
         {
-          "ruleId": "S2139",
-          "level": "warning",
-          "message": "Either log this exception and handle it, or rethrow it with some contextual information.",
+          "ruleId": "CA1861",
+          "level": "note",
+          "message": "Preferir campos \"static readonly\" frente a argumentos de matriz constantes si se llama repetidamente al método llamado y no muta la matriz pasada",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/ApiController.cs",
+                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Migrations/20260702193749_InitialCreate.cs",
                 "region": {
-                  "startLine": 51,
-                  "startColumn": 30,
-                  "endLine": 51,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/ApiController.cs",
-                "region": {
-                  "startLine": 53,
-                  "startColumn": 17,
-                  "endLine": 53,
-                  "endColumn": 92
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/ApiController.cs",
-                "region": {
-                  "startLine": 54,
-                  "startColumn": 17,
-                  "endLine": 54,
-                  "endColumn": 23
+                  "startLine": 36,
+                  "startColumn": 26,
+                  "endLine": 36,
+                  "endColumn": 113
                 }
               }
             }
@@ -495,30 +335,8 @@
           "properties": {
             "warningLevel": 1,
             "customProperties": {
-              "0": "Logging statement.",
-              "1": "Thrown exception."
+              "paramName": "columns"
             }
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/AuthController.cs",
-                "region": {
-                  "startLine": 23,
-                  "startColumn": 13,
-                  "endLine": 23,
-                  "endColumn": 81
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
           }
         },
         {
@@ -557,398 +375,6 @@
                   "startLine": 82,
                   "startColumn": 17,
                   "endLine": 82,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": "Logging statement.",
-              "1": "Thrown exception."
-            }
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/ApiController.cs",
-                "region": {
-                  "startLine": 26,
-                  "startColumn": 13,
-                  "endLine": 26,
-                  "endColumn": 88
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/ApiController.cs",
-                "region": {
-                  "startLine": 38,
-                  "startColumn": 17,
-                  "endLine": 40,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/ApiController.cs",
-                "region": {
-                  "startLine": 59,
-                  "startColumn": 17,
-                  "endLine": 59,
-                  "endColumn": 107
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/CommentController.cs",
-                "region": {
-                  "startLine": 23,
-                  "startColumn": 13,
-                  "endLine": 25,
-                  "endColumn": 56
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/CommentController.cs",
-                "region": {
-                  "startLine": 30,
-                  "startColumn": 13,
-                  "endLine": 30,
-                  "endColumn": 105
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/ApiController.cs",
-                "region": {
-                  "startLine": 67,
-                  "startColumn": 13,
-                  "endLine": 67,
-                  "endColumn": 80
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/ApiController.cs",
-                "region": {
-                  "startLine": 73,
-                  "startColumn": 17,
-                  "endLine": 75,
-                  "endColumn": 67
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/ApiController.cs",
-                "region": {
-                  "startLine": 112,
-                  "startColumn": 13,
-                  "endLine": 112,
-                  "endColumn": 126
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3358",
-          "level": "warning",
-          "message": "Extract this nested ternary operation into an independent statement.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Middleware/RequestLoggingMiddleware.cs",
-                "region": {
-                  "startLine": 26,
-                  "startColumn": 19,
-                  "endLine": 27,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Middleware/RequestLoggingMiddleware.cs",
-                "region": {
-                  "startLine": 29,
-                  "startColumn": 13,
-                  "endLine": 35,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/HomeController.cs",
-                "region": {
-                  "startLine": 22,
-                  "startColumn": 9,
-                  "endLine": 22,
-                  "endColumn": 99
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/HomeController.cs",
-                "region": {
-                  "startLine": 27,
-                  "startColumn": 9,
-                  "endLine": 27,
-                  "endColumn": 98
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2139",
-          "level": "warning",
-          "message": "Either log this exception and handle it, or rethrow it with some contextual information.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/CommentController.cs",
-                "region": {
-                  "startLine": 69,
-                  "startColumn": 30,
-                  "endLine": 69,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/CommentController.cs",
-                "region": {
-                  "startLine": 71,
-                  "startColumn": 17,
-                  "endLine": 71,
-                  "endColumn": 115
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/CommentController.cs",
-                "region": {
-                  "startLine": 72,
-                  "startColumn": 17,
-                  "endLine": 72,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": "Logging statement.",
-              "1": "Thrown exception."
-            }
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/HomeController.cs",
-                "region": {
-                  "startLine": 34,
-                  "startColumn": 9,
-                  "endLine": 34,
-                  "endColumn": 101
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/HomeController.cs",
-                "region": {
-                  "startLine": 39,
-                  "startColumn": 9,
-                  "endLine": 39,
-                  "endColumn": 100
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2139",
-          "level": "warning",
-          "message": "Either log this exception and handle it, or rethrow it with some contextual information.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/AuthController.cs",
-                "region": {
-                  "startLine": 56,
-                  "startColumn": 30,
-                  "endLine": 56,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/AuthController.cs",
-                "region": {
-                  "startLine": 58,
-                  "startColumn": 17,
-                  "endLine": 58,
-                  "endColumn": 107
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/AuthController.cs",
-                "region": {
-                  "startLine": 59,
-                  "startColumn": 17,
-                  "endLine": 59,
                   "endColumn": 23
                 }
               }
@@ -1010,303 +436,6 @@
               "1": "Thrown exception."
             }
           }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/HomeController.cs",
-                "region": {
-                  "startLine": 56,
-                  "startColumn": 9,
-                  "endLine": 56,
-                  "endColumn": 98
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/CommentController.cs",
-                "region": {
-                  "startLine": 40,
-                  "startColumn": 13,
-                  "endLine": 42,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/CommentController.cs",
-                "region": {
-                  "startLine": 62,
-                  "startColumn": 21,
-                  "endLine": 64,
-                  "endColumn": 57
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/CommentController.cs",
-                "region": {
-                  "startLine": 77,
-                  "startColumn": 17,
-                  "endLine": 77,
-                  "endColumn": 114
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/AuthController.cs",
-                "region": {
-                  "startLine": 73,
-                  "startColumn": 13,
-                  "endLine": 73,
-                  "endColumn": 103
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/AuthController.cs",
-                "region": {
-                  "startLine": 84,
-                  "startColumn": 13,
-                  "endLine": 86,
-                  "endColumn": 48
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/AuthController.cs",
-                "region": {
-                  "startLine": 96,
-                  "startColumn": 13,
-                  "endLine": 98,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/AuthController.cs",
-                "region": {
-                  "startLine": 32,
-                  "startColumn": 13,
-                  "endLine": 32,
-                  "endColumn": 110
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/AuthController.cs",
-                "region": {
-                  "startLine": 50,
-                  "startColumn": 17,
-                  "endLine": 52,
-                  "endColumn": 54
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/AuthController.cs",
-                "region": {
-                  "startLine": 64,
-                  "startColumn": 17,
-                  "endLine": 64,
-                  "endColumn": 113
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/SearchController.cs",
-                "region": {
-                  "startLine": 27,
-                  "startColumn": 13,
-                  "endLine": 32,
-                  "endColumn": 24
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/SearchController.cs",
-                "region": {
-                  "startLine": 68,
-                  "startColumn": 17,
-                  "endLine": 68,
-                  "endColumn": 103
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1873",
-          "level": "note",
-          "message": "La evaluación de este argumento puede ser costosa e innecesaria si el registro está deshabilitado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Controllers/SearchController.cs",
-                "region": {
-                  "startLine": 80,
-                  "startColumn": 17,
-                  "endLine": 80,
-                  "endColumn": 108
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1861",
-          "level": "note",
-          "message": "Preferir campos \"static readonly\" frente a argumentos de matriz constantes si se llama repetidamente al método llamado y no muta la matriz pasada",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/WIN11/Documents/TRABAJOS/Cuatrimestre%20VIII/SEGURIDAD/repo/Seguridad-en-el-desarrollo-de-apps/practicas/VulnerableApp/Migrations/20260702193749_InitialCreate.cs",
-                "region": {
-                  "startLine": 36,
-                  "startColumn": 26,
-                  "endLine": 36,
-                  "endColumn": 113
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "paramName": "columns"
-            }
-          }
         }
       ],
       "rules": {
@@ -1316,21 +445,6 @@
           "fullDescription": "Las matrices constantes pasadas como argumentos no se reutilizan cuando se llaman repetidamente, lo que implica que se cree una nueva matriz cada vez. Considere la posibilidad de extraerlas a campos \"static readonly\" para mejorar el rendimiento si la matriz pasada no se muta dentro del método llamado.",
           "defaultLevel": "note",
           "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1861",
-          "properties": {
-            "category": "Performance",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Telemetry",
-              "EnabledRuleInAggressiveMode"
-            ]
-          }
-        },
-        "CA1873": {
-          "id": "CA1873",
-          "shortDescription": "Evitar el registro potencialmente costoso",
-          "fullDescription": "En muchas situaciones, el registro se deshabilita o se establece en un nivel de registro que da como resultado una evaluación innecesaria para este argumento.",
-          "defaultLevel": "note",
-          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873",
           "properties": {
             "category": "Performance",
             "isEnabledByDefault": true,
@@ -1410,22 +524,6 @@
             "tags": [
               "C#",
               "MainSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S3358": {
-          "id": "S3358",
-          "shortDescription": "Ternary operators should not be nested",
-          "fullDescription": "Nested ternaries are hard to read and can make the order of operations complex to understand.",
-          "defaultLevel": "warning",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
               "SonarWay"
             ]
           }
