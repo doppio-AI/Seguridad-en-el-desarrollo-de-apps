@@ -1,15 +1,21 @@
-@model List<string>
-
-<h2>Comentarios</h2>
-
-<form method="post" action="/Comment/AddComment">
-    <textarea name="comment" rows="4" cols="50"></textarea>
-    <button type="submit">Comentar</button>
+@model IEnumerable<VulnerableApp.Models.User>
+<h2>Buscar Usuarios</h2>
+<form method="get">
+    <label for="search">Buscar usuario</label>
+    <input type="text" id="search" name="search" placeholder="Busca usuario..." />
+    <button type="submit">Buscar</button>
 </form>
-
-<div id="comments">
-    @foreach (var comment in Model ?? new List<string>())
-    {
-        <div class="comment">@Html.Raw(comment)</div>
-    }
-</div>
+@if (Model?.Any() == true)
+{
+    <table>
+        <tr><th>Username</th><th>Email</th><th>Balance</th></tr>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Username</td>
+                <td>@user.Email</td>
+                <td>$@user.Balance</td>
+            </tr>
+        }
+    </table>
+}
