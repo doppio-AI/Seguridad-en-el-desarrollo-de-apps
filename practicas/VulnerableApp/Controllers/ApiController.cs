@@ -39,20 +39,20 @@ namespace VulnerableApp.Controllers
                     "Api.GetUser exitoso. Id:{Id} Usuario:{Usuario} IP:{IP}",
                     id, user.Username, ClientIp);
 
-                return Ok(new
-                {
-                    user.Id,
-                    user.Username,
-                    user.Email,
-                    user.Balance,
-                    user.Password
-                });
+               return Ok(new
+{
+    user.Id,
+    user.Username,
+    user.Email,
+    user.Balance
+});
+              
             }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error en Api.GetUser. Id:{Id} IP:{IP}", id, ClientIp);
-                throw;
-            }
+           catch (Exception ex)
+{
+    _logger.LogError(ex, "Error en Api.GetUser. Id:{Id} IP:{IP}", id, ClientIp);
+    return StatusCode(500, new { error = "Ocurrió un error interno al procesar la solicitud." });
+}
             finally
             {
                 sw.Stop();

@@ -1,4 +1,11 @@
-«
+ù
+ˆC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Program.csH
+  #      
+ 
+, 3 `
+  '' (( )) ++ ,, -- // 33X [55 	
+ 	 
+  «
 ¢C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Security\SecurityPatternsDetector.cs
 
  /
@@ -14,14 +21,7 @@
  (2
 1 6% * 5 :P U
 < E) 2= F
- 4 ;ù
-ˆC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Program.csH
-  #      
- 
-, 3 `
-  '' (( )) ++ ,, -- // 33X [55 	
- 	 
-  ï
+ 4 ;ï
 ŒC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Models\User.cs
 
  
@@ -139,7 +139,49 @@
 * 0   %% 22> D778 ><<) /BBE KJJR X
  OO PPT V
 BB DDZ _FF !
-BB, -BB1 2â
+BB, -BB1 2à
+›C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\HomeController.cs
+ 		 +" 0P
+		- 4   "" '' 11 88 
+2 8 (
+ L W""N Y33 "(
+ Y a""[ c33$ ,
+
+ 
+  
+J L
+  
+
+  
+!! && 
+''L N
+$$ (( 
+
+,, 
+.. 77 
+88J L
+// 33 55; D
+55 99 Ã
+žC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\CommentController.cs
+ "
+
+! 2) :(
+		$ -' 0 '== d
+
+
+4 ;   (( .. 77 >> GG MM 
+< B F
+ # ** 00 99 #@@ #GG\ gF
+   %** %00! )99% -@@% -GGi q
+
+ "
+  Q S
+  
+
+## '<
+##/ 6&& ",,5 <00O V55) 0==" )
+%% LL MMZ \
+&& **' /@@/ 7â
 ›C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\AuthController.cs
  ! /7 E(
 
@@ -165,49 +207,7 @@
 QQ XX 
 
 [[ #
-]] bb Ã
-žC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\CommentController.cs
- "
-
-! 2) :(
-		$ -' 0 '== d
-
-
-4 ;   (( .. 77 >> GG MM 
-< B F
- # ** 00 99 #@@ #GG\ gF
-   %** %00! )99% -@@% -GGi q
-
- "
-  Q S
-  
-
-## '<
-##/ 6&& ",,5 <00O V55) 0==" )
-%% LL MMZ \
-&& **' /@@/ 7à
-›C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\HomeController.cs
- 		 +" 0P
-		- 4   "" '' 11 88 
-2 8 (
- L W""N Y33 "(
- Y a""[ c33$ ,
-
- 
-  
-J L
-  
-
-  
-!! && 
-''L N
-$$ (( 
-
-,, 
-.. 77 
-88J L
-// 33 55; D
-55 99 ‰
+]] bb ‰
 šC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\ApiController.cs
 		 ! .6 C(
 & )  GG x
