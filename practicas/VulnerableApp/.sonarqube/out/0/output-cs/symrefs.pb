@@ -44,16 +44,7 @@
  
  7 @
 
- «
-°C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260728204937_FixSeedPasswordHashes.cs
-
- .
-
-  "(
-4 D   
-
-$$  $(
-$$6 F&& -- 44 ƒ
+ ƒ
 ¨C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260702193749_InitialCreate.cs
 
  &
@@ -65,7 +56,16 @@
 1 26 7
 
 ..  $
-..6 F00 ¡
+..6 F00 «
+°C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Migrations\20260728204937_FixSeedPasswordHashes.cs
+
+ .
+
+  "(
+4 D   
+
+$$  $(
+$$6 F&& -- 44 ¡
 ¤C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Middleware\RequestLoggingMiddleware.cs(
  )		! 9F ^00) A
 ) . 
@@ -128,18 +128,18 @@
   
 
   /
-= I °
+= I ¦
 C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\SearchController.cs
 
 
  !! 19 I
 & ) BB d
-3 :   -- 44 >> DD JJ PP 
+3 :   -- 44 >> DD JJ PP 
 - / 
 K Q 
 
- "Z
-* 0   %% --F L22> D778 ><<) /BBE KJJR X
+ "P
+* 0   %% 22> D778 ><<) /BBE KJJR X
  OO PPT V
 BB DDZ _FF !
 BB, -BB1 2à
@@ -164,27 +164,7 @@
 .. 77 
 88J L
 // 33 55; D
-55 99 Ã
-žC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\CommentController.cs
- "
-
-! 2) :(
-		$ -' 0 '== d
-
-
-4 ;   (( .. 77 >> GG MM 
-< B F
- # ** 00 99 #@@ #GGP [F
-   %** %00! )99% -@@% -GG] e
-
- "
-  Q S
-  
-
-## '<
-##/ 6&& ",,5 <00O V55) 0==" )
-%% LL MMZ \
-&& **' /@@/ 7â
+55 99 â
 ›C:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\AuthController.cs
  ! /7 E(
 
@@ -210,7 +190,27 @@
 RR YY 
 
 \\ #
-^^ cc ÿ
+^^ cc Ã
+žC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\CommentController.cs
+ "
+
+! 2) :(
+		$ -' 0 '== d
+
+
+4 ;   (( .. 77 >> GG MM 
+< B F
+ # ** 00 99 #@@ #GGP [F
+   %** %00! )99% -@@% -GG] e
+
+ "
+  Q S
+  
+
+## '<
+##/ 6&& ",,5 <00O V55) 0==" )
+%% LL MMZ \
+&& **' /@@/ 7ÿ
 šC:\Users\WIN11\Documents\TRABAJOS\Cuatrimestre VIII\SEGURIDAD\repo\Seguridad-en-el-desarrollo-de-apps\practicas\VulnerableApp\Controllers\ApiController.cs
 		 ! .6 C(
 & )  GG x
